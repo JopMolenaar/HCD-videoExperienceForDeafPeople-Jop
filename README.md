@@ -57,9 +57,6 @@ Over closed captions is ze opzich wel enthausiast, maar ze krijgt gewoon niet al
 
 Verder heeft ze wat films opgenoemd die ze vaak kijkt, waar ze voorbeelden uit noemde, en waar wij ook wat van konden kijken om te vergelijken 
 
-
-
-
 <!-- Een podcast mist intonatie en maakt het  -->
 
 #### Films om te kijken voor onderzoek
@@ -71,7 +68,6 @@ Verder heeft ze wat films opgenoemd die ze vaak kijkt, waar ze voorbeelden uit n
 
 Verder heeft ze een hele brede interesse en kijkt ze ook naar de keuringsdienst van waarde en rupals dragrace. 
 
-
 ### TODO:
 
 - [ ] Onderzoek doen.
@@ -82,17 +78,12 @@ Verder heeft ze een hele brede interesse en kijkt ze ook naar de keuringsdienst 
 > sfeer, intonatie, stijl van sprekers mee krijgen. Waar geluiden vandaan komen.
 veel experimenteren.
 
-
-
 ### Ideen 
 
 Video in html laden
 Een bestand maken met timestamps van de ondertiteling.
 Met js dit over de video laten zien. 
 Met een style bestand dit stylen en extra's toevoegen. 
-
-
-
 
 ## The chestnutmen
 
