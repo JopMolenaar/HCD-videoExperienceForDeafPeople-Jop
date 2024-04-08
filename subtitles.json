@@ -1,0 +1,56 @@
+{
+    "subtitles": [
+        {
+            "startTime": "00:00:01.000",
+            "endTime": "00:00:02.000",
+            "text": "hoi hoi",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ]
+        },
+        {
+            "startTime": "00:00:03.000",
+            "endTime": "00:00:05.000",
+            "text": "tweede text",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                },
+                {
+                    "line": "font-weight",
+                    "var": 700
+                },
+                {
+                    "line": "background-color",
+                    "var": "gray"
+                }
+            ]
+        },
+        {
+            "startTime": "00:00:05.000",
+            "endTime": "00:00:07.000",
+            "text": "hoi hoi 2",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ]
+        },
+        {
+            "startTime": "00:00:21.230",
+            "endTime": "00:00:25.606",
+            "text": "hai haiiiii",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ]
+        }
+    ]
+}

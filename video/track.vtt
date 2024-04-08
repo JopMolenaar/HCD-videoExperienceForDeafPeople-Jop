@@ -1,11 +1,17 @@
+WEBVTT
+
 1
-00:00:22.230 --> 00:00:24.606
-This is the first subtitle.
+00:00:05.230 --> 00:00:20.606 color:red
+- This is the first subtitle.
 
 2
-00:00:30.739 --> 00:00:34.074
-This is the second.
+00:00:22.230 --> 00:00:24.606
+- This is the first subtitle.
 
 3
+00:00:30.739 --> 00:00:34.074
+- This is the second.
+
+4
 00:00:34.159 --> 00:00:35.743
-Third
+- Third

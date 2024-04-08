@@ -6,24 +6,31 @@ body {
 main {
      width: 100%;
      height: 100%; 
+     animation: color 5s infinite linear;
+     display: flex;
+
 }
-main div {
-    width: 100%;
-    height: 100%;
+main > div {
+    width: fit-content;
     display: grid;
-    place-items: center;
+    margin: auto;
 }
-main div video {
+main > div video {
+    place-self: end center;
     width: 70vw;
     aspect-ratio: 16/9;
 }
+main > div button {
+    height: fit-content;
+}
 
-
-video::cue {
-    background-image: linear-gradient(to bottom, dimgray, lightgray);
-    color: papayawhip;
-  }
-  
-  video::cue(b) {
-    color: peachpuff;
-  }
+main > div > div p {
+    opacity: 0;
+    position: absolute;
+}
+main > div > div {
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    min-height: 1em ;
+}

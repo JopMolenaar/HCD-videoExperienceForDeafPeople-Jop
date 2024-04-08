@@ -1,4 +1,4 @@
-# HCD-videoExperienceForDeafPeople-Jop
+# HCD
 
 ## Intro
 
@@ -7,27 +7,16 @@ Wij mochten Marie interviewen...
 ## Vragen met bevindingen
 
 - Bent u doof geboren of doof geworden?
-> Doof geboren.
-- Waar komt uw passie voor podcasts of films vandaan?
-> 
+- Waar komt uw passie voor podcasts of films vandaan? 
 - Wat voor podcasts en films kijkt u?
-> 
 - Wat gebruikt u nu wanneer u een podcast of film kijkt / Hoe en waar kijkt u podcasts?
-> Op de telefoon en televisie met ondertiteling met closed captions. 
 - Wat vindt u daar fijn aan werken?
-> ...
 - Wat vind je van de huidige closed caption en wat mis je?
-> Het is prima maar ik mis veel informatie over bijvoorbeeld hoe het gezegd wordt. Dit kot omdat het gewoon platte tekst is. 
 - Wat is uw favoriete film, waarom en hoe kan deze nog beter worden?
->
 - Wat mist u het meest in de ervaring als u naar een film of podcast kijkt?
->
 - Zouden trillingen kunnen helpen met het begrijpen van de muziek?
->
 Begrijpt u de huidige muziek/effecten die worden omschreven in de ondertiteling zoals [spannende muziek] of [Er wordt geklopt]?
-> Het is vaak erg oppervlakkig, 2D en vaag. Het is vaag waar het geluid vandaan komt. Er zou meer detail mee moeten komen. Ook mis ik veel ervaringen zoals muziek en mis ik veel informatie dat buiten beeld gebeurd. 
 - Zou u de extra informatie uit de video het liefst in tekst zien of zouden animaties of afbeeldingen als overlay bij de video ook helpen?
->
 
 ### Bevindingen
 
@@ -57,7 +46,7 @@ Over closed captions is ze opzich wel enthausiast, maar ze krijgt gewoon niet al
 
 Verder heeft ze wat films opgenoemd die ze vaak kijkt, waar ze voorbeelden uit noemde, en waar wij ook wat van konden kijken om te vergelijken 
 
-<!-- Een podcast mist intonatie en maakt het  -->
+<!-- Een podcast mist intonatie en maakt het saai -->
 
 #### Films om te kijken voor onderzoek
 
