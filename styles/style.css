@@ -53,6 +53,14 @@ main > div > div p {
     margin: 0;
     font-size: 1.3em;
 }
+
+img {
+    opacity: 0;
+    height: 50px;
+    width: auto;
+    position: absolute;
+}
+
 main > div > div> div:nth-of-type(2) {
     height: fit-content;
     position: relative;

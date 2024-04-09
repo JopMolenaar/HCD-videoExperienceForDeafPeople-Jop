@@ -113,6 +113,8 @@ async function fetchSubtitles() {
             `;
                 break;
             case "soundOnScreen":
+                subtitlesContainer.appendChild(subtitleElement);
+
                 keyframes = `
                 @keyframes ${animationName} {
                     0% {
@@ -148,6 +150,10 @@ async function fetchSubtitles() {
         subtitlesContainer.querySelectorAll("p").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "running";
         });
+        subtitlesContainer.querySelectorAll("img").forEach((subtitleElement) => {
+            subtitleElement.style.animationPlayState = "running";
+            console.log(subtitleElement);
+        });
         backgroundColorElement.style.animationPlayState = "running";
     });
 
@@ -155,7 +161,11 @@ async function fetchSubtitles() {
     videoElement.addEventListener("pause", () => {
         subtitlesContainer.querySelectorAll("p").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "paused";
-            backgroundColorElement.style.animationPlayState = "paused";
+        });
+        backgroundColorElement.style.animationPlayState = "paused";
+
+        subtitlesContainer.querySelectorAll("img").forEach((subtitleElement) => {
+            subtitleElement.style.animationPlayState = "running";
         });
     });
 }
