@@ -1,54 +1,230 @@
 {
     "subtitles": [
         {
-            "startTime": "00:00:01.000",
-            "endTime": "00:00:02.000",
-            "text": "hoi hoi",
+            "startTime": "00:04:10.583",
+            "endTime": "00:04:11.833",
+            "text": "Police, Jytte speaking.",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "blue"
+                }
+            ],
+            "icon": "📞"
+        },
+        {
+            "startTime": "00:04:11.916",
+            "endTime": "00:04:14.583",
+            "text": "It's me. Please dispatch an ambulance to Ørum's farm.",
             "styles": [
                 {
                     "line": "color",
                     "var": "red"
                 }
-            ]
+            ],
+            "icon": "👮🏼"
         },
         {
-            "startTime": "00:00:03.000",
-            "endTime": "00:00:05.000",
-            "text": "tweede text",
+            "startTime": "00:04:14.666",
+            "endTime": "00:04:16.583",
+            "text": "What happend?",
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
-                },
-                {
-                    "line": "font-weight",
-                    "var": 700
-                },
-                {
-                    "line": "background-color",
-                    "var": "gray"
+                    "var": "blue"
                 }
-            ]
+            ],
+            "icon": "📞"
         },
         {
-            "startTime": "00:00:05.000",
-            "endTime": "00:00:07.000",
-            "text": "hoi hoi 2",
+            "startTime": "00:04:14.666",
+            "endTime": "00:04:16.583",
+            "text": "I have three dead victims.",
             "styles": [
                 {
                     "line": "color",
                     "var": "red"
                 }
-            ]
+            ],
+            "icon": "👮🏼"
         },
         {
-            "startTime": "00:00:21.230",
-            "endTime": "00:00:25.606",
-            "text": "hai haiiiii",
+            "startTime": "00:04:16.666",
+            "endTime": "00:04:18.958",
+            "text": "And one injured boy, who's still breathing?",
             "styles": [
                 {
                     "line": "color",
                     "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:04:19.041",
+            "endTime": "00:04:21.250",
+            "text": "The oldest boy?",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "blue"
+                }
+            ],
+            "icon": "📞"
+        },
+        {
+            "startTime": "00:04:19.041",
+            "endTime": "00:04:21.250",
+            "text": "No, not him.",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:04:21.333",
+            "endTime": "00:04:24.791",
+            "text": "It's the youngest. One of the two foster children.",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:04:24.875",
+            "endTime": "00:04:26.500",
+            "text": "Where's the foster girl?",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "blue"
+                }
+            ],
+            "icon": "📞"
+        },
+        { "backgroundSound": true, "startTime": "00:04:26.500", "endTime": "00:04:28.500", "color": "black" },
+        {
+            "startTime": "00:04:29.541",
+            "endTime": "00:04:32.958",
+            "text": "Send everything you've got! And launch a search for Ørum.",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:04:33.041",
+            "endTime": "00:04:34.708",
+            "text": "Just get out of the house!",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "blue"
+                }
+            ],
+            "icon": "📞"
+        },
+        {
+            "startTime": "00:04:48.833",
+            "endTime": "00:04:49.875",
+            "text": "Police!",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:05:50.000",
+            "endTime": "00:05:53.250",
+            "text": "There... Quiet. Easy now.",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:05:54.500",
+            "endTime": "00:05:55.500",
+            "text": "There you go.",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:05:56.916",
+            "endTime": "00:05:59.500",
+            "text": "Don't be afraid. I'm a police officer.",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:06:00.416",
+            "endTime": "00:06:03.083",
+            "text": "My name is Marius, and I'm here to help you.",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:06:04.750",
+            "endTime": "00:06:06.458",
+            "text": "You're Astrid, right?",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:06:09.625",
+            "endTime": "00:06:10.791",
+            "text": "Do you live down here?",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "red"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "startTime": "00:07:11.541",
+            "endTime": "00:07:14.541",
+            "text": "THE CHESTNUT MAN",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "black"
                 }
             ]
         }

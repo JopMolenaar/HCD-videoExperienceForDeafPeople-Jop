@@ -1,22 +1,53 @@
 const videoTime = "00:02:21.000";
+const timeFromTheStart = "00:04:11.000";
+const secondsSkipped = parseVideoDuration(timeFromTheStart);
 const videoDurationSeconds = parseVideoDuration(videoTime); // Helper function to parse time and calculate duration in seconds
 const videoElement = document.querySelector("video");
+const backgroundColorElement = document.querySelector("main div:nth-child(1)");
+
 async function fetchSubtitles() {
     const response = await fetch("../subtitles.json");
     const data = await response.json();
 
     const subtitlesContainer = document.createElement("div");
     subtitlesContainer.classList.add("subtitles-container");
-    document.querySelector("main div").appendChild(subtitlesContainer);
+    document.querySelector("main div div").appendChild(subtitlesContainer);
 
     data.subtitles.forEach((subtitle, index) => {
-        const { startTime, endTime, text, styles } = subtitle;
-
-        const subtitleElement = document.createElement("p");
-        subtitleElement.textContent = text;
-
-        const startTimeSeconds = parseVideoDuration(startTime);
-        const endTimeSeconds = parseVideoDuration(endTime);
+        let startTime, endTime, styles, subtitleElement, keyframes, switchCase, color;
+        if (subtitle.text) {
+            switchCase = "text";
+            startTime = subtitle.startTime;
+            endTime = subtitle.endTime;
+            styles = subtitle.styles;
+            const { text, icon } = subtitle;
+            subtitleElement = document.createElement("p");
+            if (icon) {
+                subtitleElement.textContent = icon + " " + text;
+            } else {
+                subtitleElement.textContent = text;
+            }
+        } else if (subtitle.backgroundSound) {
+            switchCase = "backgroundSound";
+            // SOUNDS that decide the color of the background
+            startTime = subtitle.startTime;
+            endTime = subtitle.endTime;
+            // styles = subtitle.styles;
+            subtitleElement = backgroundColorElement;
+            color = subtitle.color;
+        } else if (subtitle.soundOnScreen) {
+            switchCase = "soundOnScreen";
+            // Sounds that display an image on the screen
+            startTime = subtitle.startTime;
+            endTime = subtitle.endTime;
+            styles = subtitle.styles;
+            subtitleElement = document.createElement("img");
+            const { img, position } = subtitle;
+        }
+        let startTimeSeconds = parseVideoDuration(startTime);
+        let endTimeSeconds = parseVideoDuration(endTime);
+        startTimeSeconds = startTimeSeconds - secondsSkipped;
+        endTimeSeconds = endTimeSeconds - secondsSkipped;
 
         const startTimePercentage = (startTimeSeconds / videoDurationSeconds) * 100;
         const animationName = `subtitle-animation-${index}`;
@@ -27,33 +58,69 @@ async function fetchSubtitles() {
         subtitleElement.style.animation = `${animationName} ${endTimeSeconds - startTimeSeconds}s forwards`;
         subtitleElement.style.animationDelay = `${delaySeconds}s`;
         subtitleElement.style.animationPlayState = "paused";
-        applyStyles(subtitleElement, styles);
 
-        const keyframes = `
-            @keyframes ${animationName} {
-                0% {
-                    opacity: 0;
+        switch (switchCase) {
+            case "text":
+                applyStyles(subtitleElement, styles);
+                subtitlesContainer.appendChild(subtitleElement);
+                keyframes = `
+                @keyframes ${animationName} {
+                    0% {
+                        opacity: 0;
+                        height: 1px;
+                    }
+                    ${startTimePercentage}% {
+                        opacity: 0;
+                        height: 1px;
+                    }
+                    ${startTimePercentage + 0.1}% {
+                        opacity: 1;
+                        height: fit-content;
+                    }
+                    99% {
+                        opacity: 1;
+                        height: fit-content;
+                    }
+                    100% {
+                        opacity: 0;
+                        height: 1px;
+                        display: none;
+                    }
                 }
-                ${startTimePercentage}% {
-                    opacity: 0;
+            `;
+
+                break;
+            case "backgroundSound":
+                keyframes = `
+                @keyframes ${animationName} {
+                    0% {
+                        background-color: ${color};
+                    }
+                    20% {
+                        background-color: ${color};
+                    }
+                    40% {
+                        background-color: color-mix(in srgb, rgb(183, 153, 108) 20%, ${color});
+                    }
+                    80% {
+                        background-color: ${color};
+                    }
+                    100% {
+                        background-color: rgb(183, 153, 108);
+                    }
                 }
-                ${startTimePercentage + 0.1}% {
-                    opacity: 1;
-                }
-                99% {
-                    opacity: 1;
-                }
-                100% {
-                    opacity: 0;
-                }
-            }
-        `;
+            `;
+                break;
+            case "soundOnScreen":
+                break;
+
+            default:
+                break;
+        }
 
         const style = document.createElement("style");
         style.textContent = keyframes;
         document.head.appendChild(style);
-
-        subtitlesContainer.appendChild(subtitleElement);
     });
 
     // Play subtitles animation when video starts playing
@@ -61,12 +128,14 @@ async function fetchSubtitles() {
         subtitlesContainer.querySelectorAll("p").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "running";
         });
+        backgroundColorElement.style.animationPlayState = "running";
     });
 
     // Pause subtitles animation when video is paused
     videoElement.addEventListener("pause", () => {
         subtitlesContainer.querySelectorAll("p").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "paused";
+            backgroundColorElement.style.animationPlayState = "paused";
         });
     });
 }
