@@ -110,6 +110,17 @@
         },
         { "backgroundSound": true, "startTime": "00:04:26.500", "endTime": "00:04:28.500", "color": "black" },
         {
+            "startTime": "00:04:26.500",
+            "endTime": "00:04:28.500",
+            "text": "[Something falls in the basement]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ]
+        },
+        {
             "startTime": "00:04:29.541",
             "endTime": "00:04:32.958",
             "text": "Send everything you've got! And launch a search for Ørum.",
@@ -132,6 +143,27 @@
                 }
             ],
             "icon": "📞"
+        },
+        {
+            "soundOnScreen": true,
+            "startTime": "00:04:38.708",
+            "endTime": "00:04:40.500",
+            "position": {
+                "top": "40%",
+                "right": "40%"
+            },
+            "url": "/images/crack.png"
+        },
+        {
+            "startTime": "00:04:38.708",
+            "endTime": "00:04:40.500",
+            "text": "[The door is cracking]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ]
         },
         {
             "startTime": "00:04:48.833",

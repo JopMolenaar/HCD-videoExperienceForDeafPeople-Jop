@@ -14,7 +14,7 @@ async function fetchSubtitles() {
     document.querySelector("main div div").appendChild(subtitlesContainer);
 
     data.subtitles.forEach((subtitle, index) => {
-        let startTime, endTime, styles, subtitleElement, keyframes, switchCase, color;
+        let startTime, endTime, styles, subtitleElement, keyframes, switchCase, color, img, position;
         if (subtitle.text) {
             switchCase = "text";
             startTime = subtitle.startTime;
@@ -40,9 +40,11 @@ async function fetchSubtitles() {
             // Sounds that display an image on the screen
             startTime = subtitle.startTime;
             endTime = subtitle.endTime;
-            styles = subtitle.styles;
+            // styles = subtitle.styles;
             subtitleElement = document.createElement("img");
-            const { img, position } = subtitle;
+            subtitleElement.src = subtitle.url;
+            img = subtitle.img;
+            position = subtitle.position;
         }
         let startTimeSeconds = parseVideoDuration(startTime);
         let endTimeSeconds = parseVideoDuration(endTime);
@@ -84,7 +86,6 @@ async function fetchSubtitles() {
                     100% {
                         opacity: 0;
                         height: 1px;
-                        display: none;
                     }
                 }
             `;
@@ -112,6 +113,25 @@ async function fetchSubtitles() {
             `;
                 break;
             case "soundOnScreen":
+                keyframes = `
+                @keyframes ${animationName} {
+                    0% {
+                        opacity: 0;
+                        top: ${position.top}
+                        right: ${position.right}
+                    }
+                    10% {
+                        opacity: 1;
+                    }
+                    90% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            `;
+
                 break;
 
             default:
