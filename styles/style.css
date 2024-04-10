@@ -61,6 +61,7 @@ img {
     position: absolute;
     /* top: 40%;
     right: 40%; */
+    filter: invert(100%);
 }
 
 main > div > div> div:nth-of-type(2) {
