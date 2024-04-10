@@ -7,7 +7,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "blue"
+                    "var": "black"
                 }
             ],
             "icon": "📞"
@@ -19,7 +19,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -31,7 +31,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "blue"
+                    "var": "black"
                 }
             ],
             "icon": "📞"
@@ -43,7 +43,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -55,7 +55,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -67,7 +67,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "blue"
+                    "var": "black"
                 }
             ],
             "icon": "📞"
@@ -79,7 +79,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -91,7 +91,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -103,7 +103,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "blue"
+                    "var": "black"
                 }
             ],
             "icon": "📞"
@@ -127,7 +127,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -139,15 +139,15 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "blue"
+                    "var": "black"
                 }
             ],
             "icon": "📞"
         },
         {
             "soundOnScreen": true,
-            "startTime": "00:04:38.708",
-            "endTime": "00:04:40.500",
+            "startTime": "00:04:44.000",
+            "endTime": "00:04:46.000",
             "position": {
                 "top": "40%",
                 "right": "40%"
@@ -155,8 +155,8 @@
             "url": "/images/crack.png"
         },
         {
-            "startTime": "00:04:38.708",
-            "endTime": "00:04:40.500",
+            "startTime": "00:04:44.000",
+            "endTime": "00:04:46.000",
             "text": "[The door is cracking]",
             "styles": [
                 {
@@ -172,7 +172,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -184,7 +184,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -196,7 +196,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -208,7 +208,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -220,7 +220,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -232,7 +232,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"
@@ -244,7 +244,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "red"
+                    "var": "darkblue"
                 }
             ],
             "icon": "👮🏼"

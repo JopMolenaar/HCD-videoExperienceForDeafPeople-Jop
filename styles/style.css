@@ -59,6 +59,8 @@ img {
     height: 50px;
     width: auto;
     position: absolute;
+    /* top: 40%;
+    right: 40%; */
 }
 
 main > div > div> div:nth-of-type(2) {

@@ -4,7 +4,7 @@ const secondsSkipped = parseVideoDuration(timeFromTheStart);
 const videoDurationSeconds = parseVideoDuration(videoTime); // Helper function to parse time and calculate duration in seconds
 const videoElement = document.querySelector("video");
 const backgroundColorElement = document.querySelector("main div:nth-child(1)");
-
+const videoWrapper = document.querySelector("main > div > div ");
 async function fetchSubtitles() {
     const response = await fetch("../subtitles.json");
     const data = await response.json();
@@ -113,8 +113,9 @@ async function fetchSubtitles() {
             `;
                 break;
             case "soundOnScreen":
-                subtitlesContainer.appendChild(subtitleElement);
-
+                videoWrapper.appendChild(subtitleElement);
+                subtitleElement.style.top = position.top;
+                subtitleElement.style.right = position.right;
                 keyframes = `
                 @keyframes ${animationName} {
                     0% {
@@ -150,7 +151,7 @@ async function fetchSubtitles() {
         subtitlesContainer.querySelectorAll("p").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "running";
         });
-        subtitlesContainer.querySelectorAll("img").forEach((subtitleElement) => {
+        videoWrapper.querySelectorAll("img").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "running";
             console.log(subtitleElement);
         });
@@ -164,8 +165,8 @@ async function fetchSubtitles() {
         });
         backgroundColorElement.style.animationPlayState = "paused";
 
-        subtitlesContainer.querySelectorAll("img").forEach((subtitleElement) => {
-            subtitleElement.style.animationPlayState = "running";
+        videoWrapper.querySelectorAll("img").forEach((subtitleElement) => {
+            subtitleElement.style.animationPlayState = "paused";
         });
     });
 }
