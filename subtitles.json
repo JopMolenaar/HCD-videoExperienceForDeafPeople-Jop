@@ -8,6 +8,10 @@
                 {
                     "line": "color",
                     "var": "black"
+                },
+                {
+                    "line": "font",
+                    "var": "'Silkscreen', sans-serif"
                 }
             ],
             "icon": "📞"
@@ -20,6 +24,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -32,6 +40,10 @@
                 {
                     "line": "color",
                     "var": "black"
+                },
+                {
+                    "line": "font",
+                    "var": "'Silkscreen', sans-serif"
                 }
             ],
             "icon": "📞"
@@ -44,6 +56,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -56,6 +72,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -68,6 +88,10 @@
                 {
                     "line": "color",
                     "var": "black"
+                },
+                {
+                    "line": "font",
+                    "var": "'Silkscreen', sans-serif"
                 }
             ],
             "icon": "📞"
@@ -80,6 +104,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -92,6 +120,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -104,6 +136,10 @@
                 {
                     "line": "color",
                     "var": "black"
+                },
+                {
+                    "line": "font",
+                    "var": "'Silkscreen', sans-serif"
                 }
             ],
             "icon": "📞"
@@ -128,6 +164,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -140,6 +180,10 @@
                 {
                     "line": "color",
                     "var": "black"
+                },
+                {
+                    "line": "font",
+                    "var": "'Silkscreen', sans-serif"
                 }
             ],
             "icon": "📞"
@@ -147,7 +191,7 @@
         {
             "soundOnScreen": true,
             "startTime": "00:04:44.000",
-            "endTime": "00:04:46.000",
+            "endTime": "00:04:47.600",
             "position": {
                 "top": "40%",
                 "right": "40%"
@@ -156,7 +200,7 @@
         },
         {
             "startTime": "00:04:44.000",
-            "endTime": "00:04:46.000",
+            "endTime": "00:04:47.600",
             "text": "[The door is cracking]",
             "styles": [
                 {
@@ -168,14 +212,40 @@
         {
             "startTime": "00:04:48.833",
             "endTime": "00:04:49.875",
-            "text": "Police!",
+            "text": "Police!?",
             "styles": [
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
+        },
+        { "backgroundSound": true, "startTime": "00:04:52.000", "endTime": "00:05:42.200", "color": "black", "bouncing": true },
+        {
+            "soundOnScreen": true,
+            "startTime": "00:05:15.500",
+            "endTime": "00:05:18.500",
+            "position": {
+                "top": "40%",
+                "right": "40%"
+            },
+            "url": "/images/crackStripes.png"
+        },
+        {
+            "startTime": "00:05:41.800",
+            "endTime": "00:05:44.000",
+            "text": "[Falling cans behind him]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ]
         },
         {
             "startTime": "00:05:50.000",
@@ -185,6 +255,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -197,6 +271,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -209,6 +287,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -221,6 +303,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -233,6 +319,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"
@@ -245,6 +335,10 @@
                 {
                     "line": "color",
                     "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
                 }
             ],
             "icon": "👮🏼"

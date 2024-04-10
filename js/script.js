@@ -3,6 +3,7 @@ const timeFromTheStart = "00:04:11.000";
 const secondsSkipped = parseVideoDuration(timeFromTheStart);
 const videoDurationSeconds = parseVideoDuration(videoTime); // Helper function to parse time and calculate duration in seconds
 const videoElement = document.querySelector("video");
+const main = document.querySelector("main");
 const backgroundColorElement = document.querySelector("main div:nth-child(1)");
 const videoWrapper = document.querySelector("main > div > div ");
 async function fetchSubtitles() {
@@ -14,7 +15,7 @@ async function fetchSubtitles() {
     document.querySelector("main div div").appendChild(subtitlesContainer);
 
     data.subtitles.forEach((subtitle, index) => {
-        let startTime, endTime, styles, subtitleElement, keyframes, switchCase, color, img, position;
+        let startTime, endTime, styles, subtitleElement, keyframes, switchCase, color, img, position, bouncing;
         if (subtitle.text) {
             switchCase = "text";
             startTime = subtitle.startTime;
@@ -33,8 +34,14 @@ async function fetchSubtitles() {
             startTime = subtitle.startTime;
             endTime = subtitle.endTime;
             // styles = subtitle.styles;
-            subtitleElement = backgroundColorElement;
+
+            const newDiv = document.createElement("div");
+            newDiv.classList.add("colorDiv");
+            main.insertBefore(newDiv, main.firstChild); // Prepend new div before each child of main
+            // create new div and place it in de main
+            subtitleElement = newDiv;
             color = subtitle.color;
+            bouncing = subtitle.bouncing;
         } else if (subtitle.soundOnScreen) {
             switchCase = "soundOnScreen";
             // Sounds that display an image on the screen
@@ -92,7 +99,38 @@ async function fetchSubtitles() {
 
                 break;
             case "backgroundSound":
-                keyframes = `
+                if (bouncing === true) {
+                    console.log(bouncing);
+                    keyframes = `
+                @keyframes ${animationName} {
+                    0%{
+                        background-color: rgb(183, 153, 108);
+                    }
+                    2.5%, 5%, 7.5%, 10%, 12.5%, 15%, 17.5%, 20%, 22.5%, 
+                    25%, 27.5%, 30%, 32.5%, 35%, 37.5%, 40%, 42.5%, 45%, 47.5%, 
+                    50%, 52.5%, 55%, 57.5%, 60%, 62.5%, 65%, 67.5%, 70%, 72.5%, 
+                    75%, 77.5%, 80%, 82.5%, 85%, 87.5%, 90%, 92.5%, 95% {
+                        background-color: rgb(94, 73, 47);
+                    }
+                    2.5%, 7.5%, 12.5%, 17.5%, 22.5%, 27.5%, 32.5%, 37.5%, 42.5%, 47.5%, 
+                    52.5%, 57.5%, 62.5%, 67.5%, 72.5%, 77.5%, 82.5%, 87.5% {
+                        background-color: ${color};
+                    }
+                    92.5%, 99%{
+                        background-color: ${color};
+                    }
+                  99%{
+                    opacity: 1;
+                  }
+                    100%{
+                        background-color: rgb(183, 153, 108);
+                        opacity: 0;
+                    }
+                }
+            `;
+                } else {
+                    console.log(bouncing);
+                    keyframes = `
                 @keyframes ${animationName} {
                     0% {
                         background-color: ${color};
@@ -106,11 +144,17 @@ async function fetchSubtitles() {
                     80% {
                         background-color: ${color};
                     }
+                    99%{
+                        opacity: 1;
+                    }
                     100% {
                         background-color: rgb(183, 153, 108);
+                        opacity: 0;
                     }
                 }
             `;
+                }
+
                 break;
             case "soundOnScreen":
                 videoWrapper.appendChild(subtitleElement);
@@ -155,7 +199,10 @@ async function fetchSubtitles() {
             subtitleElement.style.animationPlayState = "running";
             console.log(subtitleElement);
         });
-        backgroundColorElement.style.animationPlayState = "running";
+        // backgroundColorElement.style.animationPlayState = "running";
+        document.querySelectorAll("main div").forEach((subtitleElement) => {
+            subtitleElement.style.animationPlayState = "running";
+        });
     });
 
     // Pause subtitles animation when video is paused
@@ -163,9 +210,12 @@ async function fetchSubtitles() {
         subtitlesContainer.querySelectorAll("p").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "paused";
         });
-        backgroundColorElement.style.animationPlayState = "paused";
+        // backgroundColorElement.style.animationPlayState = "paused";
 
         videoWrapper.querySelectorAll("img").forEach((subtitleElement) => {
+            subtitleElement.style.animationPlayState = "paused";
+        });
+        document.querySelectorAll("main div").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "paused";
         });
     });
@@ -206,7 +256,7 @@ function applyStyles(element, styles) {
                 element.style.backgroundColor = value;
                 break;
             case "font":
-                // element.style.backgroundColor = value;
+                element.style.fontFamily = value;
                 break;
             case "background-image":
                 element.style.backgroundImage = value;
@@ -214,8 +264,13 @@ function applyStyles(element, styles) {
             case "font-size":
                 element.style.fontSize = value;
                 break;
+
             default:
                 break;
+
+            // font-family: "Silkscreen", sans-serif;
+            // font-weight: 400;
+            // font-style: normal;
         }
     });
 }

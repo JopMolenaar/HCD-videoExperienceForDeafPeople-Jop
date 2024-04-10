@@ -5,8 +5,6 @@ body {
     padding: 0;
  
 }
-
-
 main {
      width: 100%;
      height: 100%; 
@@ -14,7 +12,7 @@ main {
      display: flex;
      position: relative;
 }
-main div:nth-child(1){
+main div.colorDiv{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -31,6 +29,15 @@ main div:nth-child(1){
     }
 }
 
+button{
+    all: unset;
+    background-color: black;
+    color: rgb(183, 153, 108);
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
 main > div {
     width: fit-content;
     display: grid;
@@ -40,7 +47,8 @@ main > div {
 main > div > div:nth-of-type(1), main > div div video {
     position: relative;
     place-self: end center;
-    width: 70vw;
+    width: 80vw;
+    max-width: 60em;
     aspect-ratio: 16/9;
 }
 main > div button {
@@ -59,8 +67,6 @@ img {
     height: 50px;
     width: auto;
     position: absolute;
-    /* top: 40%;
-    right: 40%; */
     filter: invert(100%);
 }
 
