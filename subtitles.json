@@ -11,7 +11,15 @@
                 },
                 {
                     "line": "font",
-                    "var": "'Silkscreen', sans-serif"
+                    "var": "'Press Start 2P', system-ui, 'Silkscreen', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
+                },
+                {
+                    "line": "font-size",
+                    "var": "0.8em"
                 }
             ],
             "icon": "📞"
@@ -28,6 +36,10 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
                 }
             ],
             "icon": "👮🏼"
@@ -43,7 +55,15 @@
                 },
                 {
                     "line": "font",
-                    "var": "'Silkscreen', sans-serif"
+                    "var": "'Press Start 2P', system-ui, 'Silkscreen', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
+                },
+                {
+                    "line": "font-size",
+                    "var": "0.8em"
                 }
             ],
             "icon": "📞"
@@ -60,6 +80,10 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
                 }
             ],
             "icon": "👮🏼"
@@ -76,6 +100,10 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
                 }
             ],
             "icon": "👮🏼"
@@ -91,7 +119,15 @@
                 },
                 {
                     "line": "font",
-                    "var": "'Silkscreen', sans-serif"
+                    "var": "'Press Start 2P', system-ui, 'Silkscreen', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
+                },
+                {
+                    "line": "font-size",
+                    "var": "0.8em"
                 }
             ],
             "icon": "📞"
@@ -108,6 +144,10 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
                 }
             ],
             "icon": "👮🏼"
@@ -124,6 +164,10 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
                 }
             ],
             "icon": "👮🏼"
@@ -139,20 +183,33 @@
                 },
                 {
                     "line": "font",
-                    "var": "'Silkscreen', sans-serif"
+                    "var": "'Press Start 2P', system-ui, 'Silkscreen', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
+                },
+                {
+                    "line": "font-size",
+                    "var": "0.8em"
                 }
             ],
             "icon": "📞"
         },
-        { "backgroundSound": true, "startTime": "00:04:26.500", "endTime": "00:04:28.500", "color": "black" },
+        { "backgroundSound": true, "startTime": "00:04:26.500", "endTime": "00:04:28.500", "color": "black", "bouncing": false },
         {
             "startTime": "00:04:26.500",
             "endTime": "00:04:28.500",
             "text": "[Something falls in the basement]",
+            ".": "// TODO laten flikkeren",
             "styles": [
                 {
                     "line": "color",
                     "var": "white"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
                 }
             ]
         },
@@ -167,10 +224,19 @@
                 },
                 {
                     "line": "font",
-                    "var": "'Mandali', sans-serif"
+                    "var": "'Coming Soon', cursive"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
+                },
+                {
+                    "line": "font-size",
+                    "var": "1em"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": "👮🏼",
+            ".": "// TODO verluisterd en klinkt banger"
         },
         {
             "startTime": "00:04:33.041",
@@ -184,9 +250,41 @@
                 {
                     "line": "font",
                     "var": "'Silkscreen', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "end"
+                },
+                {
+                    "line": "font-size",
+                    "var": "1.2em"
                 }
             ],
             "icon": "📞"
+        },
+        {
+            "startTime": "00:04:34.000",
+            "endTime": "00:04:35.708",
+            "text": "[Hangs up the phone]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                },
+                {
+                    "line": "font-size",
+                    "var": "1em"
+                }
+            ],
+            "icon": "👮🏼"
         },
         {
             "soundOnScreen": true,
@@ -206,13 +304,17 @@
                 {
                     "line": "color",
                     "var": "white"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
                 }
             ]
         },
         {
             "startTime": "00:04:48.833",
             "endTime": "00:04:49.875",
-            "text": "Police!?",
+            "text": "Police!",
             "styles": [
                 {
                     "line": "color",
@@ -220,12 +322,56 @@
                 },
                 {
                     "line": "font",
-                    "var": "'Mandali', sans-serif"
+                    "var": "'Coming Soon', cursive"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                },
+                {
+                    "line": "font-size",
+                    "var": "2em"
                 }
             ],
             "icon": "👮🏼"
         },
-        { "backgroundSound": true, "startTime": "00:04:52.000", "endTime": "00:05:42.200", "color": "black", "bouncing": true },
+        {
+            "startTime": "00:04:51.000",
+            "endTime": "00:04:52.500",
+            "text": "Hello?",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Coming Soon', cursive"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                }
+            ],
+            "icon": "👮🏼"
+        },
+        {
+            "backgroundSound": true,
+            "startTime": "00:04:56.000",
+            "endTime": "00:05:30.000",
+            "color": "rgb(12, 12, 12)",
+            "styles": [
+                {
+                    "line": "background-color",
+                    "var": "rgb(12, 12, 12)"
+                },
+                {
+                    "line": "opacity",
+                    "var": "0"
+                }
+            ]
+        },
+
         {
             "soundOnScreen": true,
             "startTime": "00:05:15.500",
@@ -237,6 +383,72 @@
             "url": "/images/crackStripes.png"
         },
         {
+            "backgroundSound": true,
+            "startTime": "00:05:25.000",
+            "endTime": "00:05:34.800",
+            "color": "rgb(30, 30, 30)",
+            "keyFrames": "flikkering"
+        },
+        {
+            "backgroundSound": true,
+            "startTime": "00:05:34.000",
+            "endTime": "00:05:41.800",
+            "styles": [
+                {
+                    "line": "background",
+                    "var": "radial-gradient(circle at 50%, transparent, transparent 30%, black 40%, black 100%)"
+                },
+                {
+                    "line": "opacity",
+                    "var": "0"
+                },
+                {
+                    "line": "animation-timing-function",
+                    "var": "linear"
+                }
+            ],
+            "bgImage": "",
+            "keyFrames": "animatedGradient"
+        },
+        {
+            "backgroundSound": true,
+            "startTime": "00:05:34.000",
+            "endTime": "00:05:42.800",
+            "styles": [
+                {
+                    "line": "background-color",
+                    "var": "white"
+                },
+                {
+                    "line": "opacity",
+                    "var": "0"
+                },
+                {
+                    "line": "background-image",
+                    "var": "url('images/cracks.jpeg')"
+                },
+                {
+                    "line": "filter",
+                    "var": "invert(100%)"
+                }
+            ]
+        },
+        {
+            "backgroundSound": true,
+            "startTime": "00:05:41.800",
+            "endTime": "00:05:43.000",
+            "styles": [
+                {
+                    "line": "background-color",
+                    "var": "white"
+                },
+                {
+                    "line": "opacity",
+                    "var": "0"
+                }
+            ]
+        },
+        {
             "startTime": "00:05:41.800",
             "endTime": "00:05:44.000",
             "text": "[Falling cans behind him]",
@@ -246,6 +458,19 @@
                     "var": "white"
                 }
             ]
+        },
+        {
+            "startTime": "00:05:45.000",
+            "endTime": "00:05:47.000",
+            "text": "[Heavy breathing]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "icon": "👮🏼",
+            ".": "// TODO groter en kleiner animeren"
         },
         {
             "startTime": "00:05:50.000",

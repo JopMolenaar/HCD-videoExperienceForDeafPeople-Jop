@@ -70,14 +70,15 @@ Verder heeft ze een hele brede interesse en kijkt ze ook naar de keuringsdienst 
 > sfeer, intonatie, stijl van sprekers mee krijgen. Waar geluiden vandaan komen.
 veel experimenteren. -->
 
-### Ideen 
+<!-- ### Ideen 
 
 Video in html laden
 Een bestand maken met timestamps van de ondertiteling.
 Met js dit over de video laten zien. 
-Met een style bestand dit stylen en extra's toevoegen. 
+Met een style bestand dit stylen en extra's toevoegen.  -->
 
-## The chestnutmen
+Ik heb de chestnut man gekeken zonder geluid en met geluid en daar kwamen deze inzichten uit: 
+<!-- Nog even nalezen en vloeind maken -->
 
 - Zonder geluid, zonder cc:
 > hond die blaft zie je pas wanneer die in beeld is. Er liggen opeens meerdere lijken in het huis en er leeft nog iemand. 
@@ -105,7 +106,7 @@ Mijn aannamens voor deze test waren dat ik meer het soort geluid van wat voor kr
 
 - Ondertiteling te ver
 > Ondertiteling te ver van de person in beeld 
-- Een malige closed caption voor geluid afbeelding
+- Een malige closed caption voor geluid afbeelding is goed
 > Kraak 1 keer met closed caption, 2de keer zonder valt goed in de smaak
 - Achtergrond visualisatie
 > De achtergrond visualiseerd nog niet genoeg de opbouwende spanning en muziek. 
@@ -135,13 +136,8 @@ Ervoor zetten wie praat maar dat hoeft niet als het duidelijk is wie praat. Late
 
 #### Todo's voor aankomende week
 
-
-
-
-<!-- Mijn test:
-Idee: lager is breder font, hoger is langer font, harder is groter font.
-Emotie:
-
-Wat is het gevoel van een stem: volgende keer in duiken.
-
-Ik ben meer ingegaan im het geluid te visualiseren -->
+- Op de opbouw itereren en varieren. (Verschillende versies maken en testen welke het best werkt)
+- Volgend gesprek vragen wat spanning voor haar is en wat zij visueel spannend eng.
+- Feedback toevoegen
+- Spelen met intonatie van de ondertiteling  
+<!-- Idee: lager is breder font, hoger is langer font, harder is groter font. -->

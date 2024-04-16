@@ -15,7 +15,7 @@ async function fetchSubtitles() {
     document.querySelector("main div div").appendChild(subtitlesContainer);
 
     data.subtitles.forEach((subtitle, index) => {
-        let startTime, endTime, styles, subtitleElement, keyframes, switchCase, color, img, position, bouncing;
+        let startTime, endTime, styles, subtitleElement, keyframes, switchCase, color, img, position, bouncing, bgColor;
         if (subtitle.text) {
             switchCase = "text";
             startTime = subtitle.startTime;
@@ -33,7 +33,7 @@ async function fetchSubtitles() {
             // SOUNDS that decide the color of the background
             startTime = subtitle.startTime;
             endTime = subtitle.endTime;
-            // styles = subtitle.styles;
+            styles = subtitle.styles;
 
             const newDiv = document.createElement("div");
             newDiv.classList.add("colorDiv");
@@ -41,7 +41,11 @@ async function fetchSubtitles() {
             // create new div and place it in de main
             subtitleElement = newDiv;
             color = subtitle.color;
-            bouncing = subtitle.bouncing;
+            if (subtitle.bouncing !== undefined) {
+                bouncing = subtitle.bouncing;
+            } else {
+                bouncing = "";
+            }
         } else if (subtitle.soundOnScreen) {
             switchCase = "soundOnScreen";
             // Sounds that display an image on the screen
@@ -99,62 +103,136 @@ async function fetchSubtitles() {
 
                 break;
             case "backgroundSound":
-                if (bouncing === true) {
-                    console.log(bouncing);
-                    keyframes = `
-                @keyframes ${animationName} {
-                    0%{
-                        background-color: rgb(183, 153, 108);
+                applyStyles(subtitleElement, styles);
+                console.log(bouncing);
+                if (subtitle.keyFrames) {
+                    console.log(subtitle.keyFrames);
+                    if (subtitle.keyFrames === "flikkering") {
+                        keyframes = `
+                        @keyframes ${animationName} {
+                            0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%{
+                                background-color: ${color};
+                                opacity: 1;
+                            }
+                            5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95%{
+                                background-color:  black;
+                            }
+                            100%{
+                                background-color: ${color};
+                                opacity: 0;
+                            }
+                        }
+                    `;
+                    } else if (subtitle.keyFrames === "animatedGradient") {
+                        keyframes = `
+                        @keyframes ${animationName} {
+                            0% {
+                                scale: 1;
+                                opacity: 1;
+                            }
+                            99%{
+                                scale: 2.8;
+                                opacity: 1;
+                            }
+                            100%{
+                                background-color: ${color};
+                                opacity: 0;
+                            }
+                        }
+                      `;
+                    } else if (subtitle.keyFrames === "opbouw") {
+                        keyframes = `
+                        @keyframes ${animationName} {
+                            0% {
+                                background-color: black
+                                opacity: 1;
+                            }
+                            99%{
+                                background-color: ${color};
+                                opacity: 1;
+                            }
+                            100%{
+                                opacity: 0;
+                            }
+                        }
+                      `;
                     }
-                    2.5%, 5%, 7.5%, 10%, 12.5%, 15%, 17.5%, 20%, 22.5%, 
-                    25%, 27.5%, 30%, 32.5%, 35%, 37.5%, 40%, 42.5%, 45%, 47.5%, 
-                    50%, 52.5%, 55%, 57.5%, 60%, 62.5%, 65%, 67.5%, 70%, 72.5%, 
-                    75%, 77.5%, 80%, 82.5%, 85%, 87.5%, 90%, 92.5%, 95% {
-                        background-color: rgb(94, 73, 47);
-                    }
-                    2.5%, 7.5%, 12.5%, 17.5%, 22.5%, 27.5%, 32.5%, 37.5%, 42.5%, 47.5%, 
-                    52.5%, 57.5%, 62.5%, 67.5%, 72.5%, 77.5%, 82.5%, 87.5% {
-                        background-color: ${color};
-                    }
-                    92.5%, 99%{
-                        background-color: ${color};
-                    }
-                  99%{
-                    opacity: 1;
-                  }
-                    100%{
-                        background-color: rgb(183, 153, 108);
-                        opacity: 0;
-                    }
-                }
-            `;
                 } else {
-                    console.log(bouncing);
-                    keyframes = `
-                @keyframes ${animationName} {
-                    0% {
-                        background-color: ${color};
-                    }
-                    20% {
-                        background-color: ${color};
-                    }
-                    40% {
-                        background-color: color-mix(in srgb, rgb(183, 153, 108) 20%, ${color});
-                    }
-                    80% {
-                        background-color: ${color};
-                    }
-                    99%{
-                        opacity: 1;
-                    }
-                    100% {
-                        background-color: rgb(183, 153, 108);
-                        opacity: 0;
+                    if (bouncing !== "") {
+                        if (bouncing === true) {
+                            console.log(bouncing);
+                            keyframes = `
+                        @keyframes ${animationName} {
+                            0%{
+                                background-color: rgb(183, 153, 108);
+                            }
+                            2.5%, 5%, 7.5%, 10%, 12.5%, 15%, 17.5%, 20%, 22.5%, 
+                            25%, 27.5%, 30%, 32.5%, 35%, 37.5%, 40%, 42.5%, 45%, 47.5%, 
+                            50%, 52.5%, 55%, 57.5%, 60%, 62.5%, 65%, 67.5%, 70%, 72.5%, 
+                            75%, 77.5%, 80%, 82.5%, 85%, 87.5%, 90%, 92.5%, 95% {
+                                background-color: rgb(94, 73, 47);
+                            }
+                            2.5%, 7.5%, 12.5%, 17.5%, 22.5%, 27.5%, 32.5%, 37.5%, 42.5%, 47.5%, 
+                            52.5%, 57.5%, 62.5%, 67.5%, 72.5%, 77.5%, 82.5%, 87.5% {
+                                background-color: ${color};
+                            }
+                            92.5%, 99%{
+                                background-color: ${color};
+                            }
+                          99%{
+                            opacity: 1;
+                          }
+                            100%{
+                                background-color: rgb(183, 153, 108);
+                                opacity: 0;
+                            }
+                        }
+                    `;
+                        } else {
+                            console.log(bouncing);
+                            keyframes = `
+                        @keyframes ${animationName} {
+                            0% {
+                                background-color: ${color};
+                            }
+                            20% {
+                                background-color: ${color};
+                            }
+                            40% {
+                                background-color: color-mix(in srgb, rgb(183, 153, 108) 20%, ${color});
+                            }
+                            80% {
+                                background-color: ${color};
+                            }
+                            99%{
+                                opacity: 1;
+                            }
+                            100% {
+                                background-color: rgb(183, 153, 108);
+                                opacity: 0;
+                            }
+                        }
+                    `;
+                        }
+                    } else {
+                        keyframes = `
+                        @keyframes ${animationName} {
+                            0% {
+                                opacity: 0;
+                            }
+                            10% {
+                                opacity: 1;
+                            }
+                            90% {
+                                opacity: 1;
+                            }
+                            100% {
+                                opacity: 0;
+                            }
+                        }
+                    `;
                     }
                 }
-            `;
-                }
-
                 break;
             case "soundOnScreen":
                 videoWrapper.appendChild(subtitleElement);
@@ -255,6 +333,9 @@ function applyStyles(element, styles) {
             case "background-color":
                 element.style.backgroundColor = value;
                 break;
+            case "background":
+                element.style.background = value;
+                break;
             case "font":
                 element.style.fontFamily = value;
                 break;
@@ -264,13 +345,20 @@ function applyStyles(element, styles) {
             case "font-size":
                 element.style.fontSize = value;
                 break;
-
+            case "position":
+                element.style.alignSelf = value;
+                break;
+            case "opacity":
+                element.style.opacity = value;
+                break;
+            case "animation-timing-function":
+                element.style.animationTimingFunction = value;
+                break;
+            case "filter":
+                element.style.filter = value;
+                break;
             default:
                 break;
-
-            // font-family: "Silkscreen", sans-serif;
-            // font-weight: 400;
-            // font-style: normal;
         }
     });
 }
