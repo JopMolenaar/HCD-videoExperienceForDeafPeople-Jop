@@ -7,7 +7,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "black"
+                    "var": "#343434"
                 },
                 {
                     "line": "font",
@@ -19,7 +19,7 @@
                 },
                 {
                     "line": "font-size",
-                    "var": "0.8em"
+                    "var": "0.7em"
                 }
             ],
             "icon": "📞"
@@ -51,7 +51,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "black"
+                    "var": "#343434"
                 },
                 {
                     "line": "font",
@@ -63,7 +63,7 @@
                 },
                 {
                     "line": "font-size",
-                    "var": "0.8em"
+                    "var": "0.7em"
                 }
             ],
             "icon": "📞"
@@ -91,7 +91,7 @@
         {
             "startTime": "00:04:16.666",
             "endTime": "00:04:18.958",
-            "text": "And one injured boy, who's still breathing?",
+            "text": "And one injured boy, who's still breathing.",
             "styles": [
                 {
                     "line": "color",
@@ -115,7 +115,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "black"
+                    "var": "#343434"
                 },
                 {
                     "line": "font",
@@ -127,7 +127,7 @@
                 },
                 {
                     "line": "font-size",
-                    "var": "0.8em"
+                    "var": "0.7em"
                 }
             ],
             "icon": "📞"
@@ -179,7 +179,7 @@
             "styles": [
                 {
                     "line": "color",
-                    "var": "black"
+                    "var": "#343434"
                 },
                 {
                     "line": "font",
@@ -191,7 +191,7 @@
                 },
                 {
                     "line": "font-size",
-                    "var": "0.8em"
+                    "var": "0.7em"
                 }
             ],
             "icon": "📞"
@@ -211,7 +211,11 @@
                     "line": "position",
                     "var": "center"
                 }
-            ]
+            ],
+            "position": {
+                "top": "80%",
+                "right": "50%"
+            }
         },
         {
             "startTime": "00:04:29.541",
@@ -235,8 +239,7 @@
                     "var": "1em"
                 }
             ],
-            "icon": "👮🏼",
-            ".": "// TODO verluisterd en klinkt banger"
+            "icon": "👮🏼"
         },
         {
             "startTime": "00:04:33.041",
@@ -284,7 +287,11 @@
                     "var": "1em"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": "👮🏼",
+            "position": {
+                "top": "70%",
+                "right": "40%"
+            }
         },
         {
             "soundOnScreen": true,
@@ -309,7 +316,11 @@
                     "line": "position",
                     "var": "center"
                 }
-            ]
+            ],
+            "position": {
+                "top": "50%",
+                "right": "30%"
+            }
         },
         {
             "startTime": "00:04:48.833",
@@ -391,12 +402,12 @@
         },
         {
             "backgroundSound": true,
-            "startTime": "00:05:34.000",
+            "startTime": "00:05:33.500",
             "endTime": "00:05:41.800",
             "styles": [
                 {
                     "line": "background",
-                    "var": "radial-gradient(circle at 50%, transparent, transparent 30%, black 40%, black 100%)"
+                    "var": "radial-gradient(circle at 50%, transparent, transparent 20%, black 30%, black 100%)"
                 },
                 {
                     "line": "opacity",
@@ -407,7 +418,6 @@
                     "var": "linear"
                 }
             ],
-            "bgImage": "",
             "keyFrames": "animatedGradient"
         },
         {
@@ -434,6 +444,32 @@
             ]
         },
         {
+            "soundOnScreen": true,
+            "startTime": "00:05:28.000",
+            "endTime": "00:05:32.500",
+            "position": {
+                "top": "60%",
+                "right": "40%"
+            },
+            "url": "/images/fly.png",
+            "animation": true
+        },
+        {
+            "startTime": "00:05:28.000",
+            "endTime": "00:05:30.000",
+            "text": "[Fly's buzzing]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "position": {
+                "top": "75%",
+                "right": "35%"
+            }
+        },
+        {
             "backgroundSound": true,
             "startTime": "00:05:41.800",
             "endTime": "00:05:43.000",
@@ -449,7 +485,7 @@
             ]
         },
         {
-            "startTime": "00:05:41.800",
+            "startTime": "00:05:41.000",
             "endTime": "00:05:44.000",
             "text": "[Falling cans behind him]",
             "styles": [
@@ -457,11 +493,15 @@
                     "line": "color",
                     "var": "white"
                 }
-            ]
+            ],
+            "position": {
+                "top": "70%",
+                "right": "50%"
+            }
         },
         {
-            "startTime": "00:05:45.000",
-            "endTime": "00:05:47.000",
+            "startTime": "00:05:41.000",
+            "endTime": "00:05:49.000",
             "text": "[Heavy breathing]",
             "styles": [
                 {
@@ -470,7 +510,11 @@
                 }
             ],
             "icon": "👮🏼",
-            ".": "// TODO groter en kleiner animeren"
+            ".": "// TODO groter en kleiner animeren",
+            "position": {
+                "top": "80%",
+                "right": "28%"
+            }
         },
         {
             "startTime": "00:05:50.000",

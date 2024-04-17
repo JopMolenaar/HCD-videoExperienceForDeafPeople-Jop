@@ -75,8 +75,38 @@ async function fetchSubtitles() {
         switch (switchCase) {
             case "text":
                 applyStyles(subtitleElement, styles);
-                subtitlesContainer.appendChild(subtitleElement);
-                keyframes = `
+                if (subtitle.position) {
+                    videoWrapper.appendChild(subtitleElement);
+                    subtitleElement.style.position = "absolute";
+                    subtitleElement.style.top = subtitle.position.top;
+                    subtitleElement.style.right = subtitle.position.right;
+                    keyframes = `
+                @keyframes ${animationName} {
+                    0% {
+                        opacity: 0;
+
+                    }
+                    ${startTimePercentage}% {
+                        opacity: 0;
+    
+                    }
+                    ${startTimePercentage + 0.1}% {
+                        opacity: 1;
+
+                    }
+                    99% {
+                        opacity: 1;
+            
+                    }
+                    100% {
+                        opacity: 0;
+
+                    }
+                }
+            `;
+                } else {
+                    subtitlesContainer.appendChild(subtitleElement);
+                    keyframes = `
                 @keyframes ${animationName} {
                     0% {
                         opacity: 0;
@@ -100,6 +130,7 @@ async function fetchSubtitles() {
                     }
                 }
             `;
+                }
 
                 break;
             case "backgroundSound":
@@ -183,7 +214,6 @@ async function fetchSubtitles() {
                             opacity: 1;
                           }
                             100%{
-                                background-color: rgb(183, 153, 108);
                                 opacity: 0;
                             }
                         }
@@ -208,7 +238,6 @@ async function fetchSubtitles() {
                                 opacity: 1;
                             }
                             100% {
-                                background-color: rgb(183, 153, 108);
                                 opacity: 0;
                             }
                         }
@@ -238,24 +267,58 @@ async function fetchSubtitles() {
                 videoWrapper.appendChild(subtitleElement);
                 subtitleElement.style.top = position.top;
                 subtitleElement.style.right = position.right;
-                keyframes = `
-                @keyframes ${animationName} {
-                    0% {
-                        opacity: 0;
-                        top: ${position.top}
-                        right: ${position.right}
+                console.log("ani", subtitle.animation);
+                if (subtitle.animation) {
+                    keyframes = `
+                    @keyframes ${animationName} {
+                        0% {
+                            opacity: 0;
+                            top: ${position.top};
+                            right: ${position.right};
+                        }
+                        10% {
+                            opacity: 1;
+                        }
+                        40% {
+                            top: 65%;
+                            right: 45%;
+                        }
+                        70% {
+                            top: 60%;
+                            right: 45%;
+                        }
+                        90% {
+                            opacity: 1;
+                            top: 58%;
+                            right: 37%;
+                        }
+                        100% {
+                            top: 60%;
+                            right: 40%;
+                            opacity: 0;
+                        }
                     }
-                    10% {
-                        opacity: 1;
+                `;
+                } else {
+                    keyframes = `
+                    @keyframes ${animationName} {
+                        0% {
+                            opacity: 0;
+                            top: ${position.top};
+                            right: ${position.right};
+                        }
+                        10% {
+                            opacity: 1;
+                        }
+                        90% {
+                            opacity: 1;
+                        }
+                        100% {
+                            opacity: 0;
+                        }
                     }
-                    90% {
-                        opacity: 1;
-                    }
-                    100% {
-                        opacity: 0;
-                    }
+                `;
                 }
-            `;
 
                 break;
 
@@ -277,6 +340,10 @@ async function fetchSubtitles() {
             subtitleElement.style.animationPlayState = "running";
             console.log(subtitleElement);
         });
+        videoWrapper.querySelectorAll("p").forEach((subtitleElement) => {
+            subtitleElement.style.animationPlayState = "running";
+            console.log(subtitleElement);
+        });
         // backgroundColorElement.style.animationPlayState = "running";
         document.querySelectorAll("main div").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "running";
@@ -289,7 +356,10 @@ async function fetchSubtitles() {
             subtitleElement.style.animationPlayState = "paused";
         });
         // backgroundColorElement.style.animationPlayState = "paused";
-
+        videoWrapper.querySelectorAll("p").forEach((subtitleElement) => {
+            subtitleElement.style.animationPlayState = "paused";
+            console.log(subtitleElement);
+        });
         videoWrapper.querySelectorAll("img").forEach((subtitleElement) => {
             subtitleElement.style.animationPlayState = "paused";
         });
