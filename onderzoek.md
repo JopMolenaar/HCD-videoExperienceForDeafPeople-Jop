@@ -141,3 +141,39 @@ Ervoor zetten wie praat maar dat hoeft niet als het duidelijk is wie praat. Late
 - Feedback toevoegen
 - Spelen met intonatie van de ondertiteling  
 <!-- Idee: lager is breder font, hoger is langer font, harder is groter font. -->
+
+
+
+## (testronde 2, Week 3) 
+
+Bij deze test had ik zo goed als alle feedback verwerkt van vorige week. Ook had ik een andere oplossing van het visualiseren van de 
+
+### Bevindingen
+
+Wat ik wilde testen was of mijn ideeen die ik nog heb, de goede weg op gaan, of zij nog feedback punten heeft die ze vorige week niet heeft gezegd, wat ze van mijn nieuwe opbouw en visualisatie van het geluid vindten of de hyrarchie van de tekst beter is. 
+
+Ik had helaas niet meerdere versies gemaakt van de opbouwende spanning omdat mijn eerste versie/idee na de feedback al heel veel tijd kostte. Maar ze was erg enthausiast over de achtergrond afbeelding bij het grimmige muziekje dat afspeelde als de kastanjemannen in beeld komen in de kelder. 
+
+Wel had ze nog wat feedback voor mij en dat was:
+- Er moet een cc als omschrijving van de muziek. 
+> Ze had nog een beetje twijfels van wat voor muziek of geluid het percies moest voorstellen. Een cc erbij om het geluid te omschrijven zou helpen daarbij. 
+- Ze had ook vragen bij wat er precies valt in de kelder als Marius aan de telefoon is, en hoe dat klinkt.
+- Ik noemde wat ideeen op zoals het animeren van de closed caption: [Heavy breathing] op het ritme van hoe hij hijgt. Dit zou zeker kunnen werken bij het zien van intonatie. 
+- De iconen bij de tekst hoeven niet altijd bij de tekst, dit leidt af en het is loze info want ze weet deze info al. 
+
+Op mn vraag van wat visueel eng is voor haar had ze geen antwoord op. Ze zat er diep over na te denken maar kon echt niks bedenken. Uiteindelijk dacht ik dat het niet zo zeer om het enge van de film gaat, maar meer de sweer. Dat het overbrengen van de sweer het belangrijkste is, en dat merkte ik ook wel tijdens deze proef. Want ze zei vaak het woord sfeer, en dat ze de sfeer goed meekreeg of mee wilde krijgen.
+
+Ook had ze nog een tip voor ons allemaal, kijk is de scene met zwart beeld, en luister alleen naar ht geluid, omschrijf wat je hoort en schrijf dit op. Dit zou het omschrijven van geluiden makkelijker voor ons maken en het beter te begrijpen maken voor Marie.
+
+### Notes van anderen hun tests
+
+- Kleuren als geluid doet haar niets
+- pulp function as typography is een goed voorbeeld van intonatie, dat de tekst hevig wordt geanimeerd is leuk en werkt goed.
+- ondertiteling moet niet achter lopen
+- woord voor woord, en de positie en animitie op de woorden individueel wordt iets te veel
+- Ook zei ze dat ze ook wel kan zien waar het geluid vandaan komt. 
+- wat ze ziet kan eruit blijven, 
+- kleine details maken het nog spannender
+- extra letters in woorden werken goed en vult goed de intonatie in.
+- Tekst helemaal uitleggen of alleen wat je hoort op de plek?, kan mss anders zijn bij omgevings geluiden en muziek.
+- Als het geluid maakt, moet het zichtbaar zijn.
