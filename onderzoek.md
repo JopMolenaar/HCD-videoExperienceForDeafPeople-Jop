@@ -142,9 +142,7 @@ Ervoor zetten wie praat maar dat hoeft niet als het duidelijk is wie praat. Late
 - Spelen met intonatie van de ondertiteling  
 <!-- Idee: lager is breder font, hoger is langer font, harder is groter font. -->
 
-
-
-## (testronde 2, Week 3) 
+## (Testronde 2, Week 3) 
 
 Bij deze test had ik zo goed als alle feedback verwerkt van vorige week. Ook had ik een andere oplossing van het visualiseren van de 
 
@@ -177,3 +175,12 @@ Ook had ze nog een tip voor ons allemaal, kijk is de scene met zwart beeld, en l
 - extra letters in woorden werken goed en vult goed de intonatie in.
 - Tekst helemaal uitleggen of alleen wat je hoort op de plek?, kan mss anders zijn bij omgevings geluiden en muziek.
 - Als het geluid maakt, moet het zichtbaar zijn.
+
+## Week 4
+
+Met de bevindingen van test 2 ben ik deze week verder gegaan, ik heb gedaan wat Marie had voorgesteld en dat was de scene te gaan beluisteren zonder beeld, dit allemaal op te schrijven en te omschrijven, en dit als closed captions neer te zetten. Hierdoor ziet ze welke geluiden je zou moeten horen waardoor zij zelf een beeld kan schetsen van de sfeer. 
+
+- alle geluiden in closed captions
+- muziek omschrijven on closed captions
+- iconen weghalen als het niet hoeft
+- het hevig ademen animeren

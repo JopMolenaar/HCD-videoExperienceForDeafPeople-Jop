@@ -106,7 +106,7 @@
                     "var": "end"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:04:19.041",
@@ -130,7 +130,7 @@
                     "var": "0.7em"
                 }
             ],
-            "icon": "📞"
+            "icon": ""
         },
         {
             "startTime": "00:04:19.041",
@@ -150,7 +150,7 @@
                     "var": "end"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:04:21.333",
@@ -170,7 +170,7 @@
                     "var": "end"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:04:24.875",
@@ -194,13 +194,13 @@
                     "var": "0.7em"
                 }
             ],
-            "icon": "📞"
+            "icon": ""
         },
         { "backgroundSound": true, "startTime": "00:04:26.500", "endTime": "00:04:28.500", "color": "black", "bouncing": false },
         {
             "startTime": "00:04:26.500",
-            "endTime": "00:04:28.500",
-            "text": "[Something falls in the basement]",
+            "endTime": "00:04:29.200",
+            "text": "[Loud hollow noises echoing through the house coming from the basement]",
             ".": "// TODO laten flikkeren",
             "styles": [
                 {
@@ -214,7 +214,7 @@
             ],
             "position": {
                 "top": "80%",
-                "right": "50%"
+                "right": "40%"
             }
         },
         {
@@ -239,7 +239,7 @@
                     "var": "1em"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:04:33.041",
@@ -263,7 +263,7 @@
                     "var": "1.2em"
                 }
             ],
-            "icon": "📞"
+            "icon": ""
         },
         {
             "startTime": "00:04:34.000",
@@ -290,7 +290,147 @@
             "icon": "👮🏼",
             "position": {
                 "top": "70%",
+                "left": "50%"
+            }
+        },
+        {
+            "startTime": "00:04:34.000",
+            "endTime": "00:04:35.708",
+            "text": "[Two short clanking sounds]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                },
+                {
+                    "line": "font-size",
+                    "var": "1em"
+                }
+            ],
+            "icon": "",
+            "position": {
+                "top": "76%",
+                "left": "50%"
+            }
+        },
+        {
+            "startTime": "00:04:37.000",
+            "endTime": "00:04:39.000",
+            "text": "[Slow soft steps]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                },
+                {
+                    "line": "font-size",
+                    "var": "1em"
+                }
+            ],
+            "icon": "",
+            "position": {
+                "top": "80%",
                 "right": "40%"
+            }
+        },
+        {
+            "startTime": "00:04:39.000",
+            "endTime": "00:04:41.000",
+            "text": "[Slow soft steps]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                },
+                {
+                    "line": "font-size",
+                    "var": "1em"
+                }
+            ],
+            "icon": "",
+            "position": {
+                "top": "78%",
+                "right": "42%"
+            }
+        },
+        {
+            "startTime": "00:04:41.000",
+            "endTime": "00:04:43.000",
+            "text": "[Slow soft steps]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                },
+                {
+                    "line": "font-size",
+                    "var": "1em"
+                }
+            ],
+            "icon": "",
+            "position": {
+                "top": "76%",
+                "right": "45%"
+            }
+        },
+        {
+            "startTime": "00:04:43.000",
+            "endTime": "00:04:44.000",
+            "text": "[Slow soft steps]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                },
+                {
+                    "line": "font-size",
+                    "var": "1em"
+                }
+            ],
+            "icon": "",
+            "position": {
+                "top": "74%",
+                "left": "48%"
             }
         },
         {
@@ -344,7 +484,7 @@
                     "var": "2em"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:04:51.000",
@@ -364,13 +504,32 @@
                     "var": "center"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
+        },
+        {
+            "startTime": "00:04:54.000",
+            "endTime": "00:04:55.500",
+            "text": "[Deep sigh]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                }
+            ],
+            "position": {
+                "top": "50%",
+                "right": "40%"
+            },
+            "icon": ""
         },
         {
             "backgroundSound": true,
             "startTime": "00:04:56.000",
             "endTime": "00:05:30.000",
-            "color": "rgb(12, 12, 12)",
             "styles": [
                 {
                     "line": "background-color",
@@ -382,7 +541,126 @@
                 }
             ]
         },
-
+        {
+            "startTime": "00:04:57.000",
+            "endTime": "00:05:07.000",
+            "text": "[Nervous breathing]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                }
+            ],
+            "position": {
+                "top": "20%",
+                "left": "50%"
+            },
+            "icon": ""
+        },
+        {
+            "startTime": "00:04:58.000",
+            "endTime": "00:05:00.000",
+            "text": "[slow soft steps]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                }
+            ],
+            "position": {
+                "top": "60%",
+                "left": "50%"
+            },
+            "icon": ""
+        },
+        {
+            "startTime": "00:05:00.000",
+            "endTime": "00:05:02.000",
+            "text": "[slow soft steps]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                }
+            ],
+            "position": {
+                "top": "62%",
+                "left": "50%"
+            },
+            "icon": ""
+        },
+        {
+            "startTime": "00:05:02.000",
+            "endTime": "00:05:04.000",
+            "text": "[slow soft steps]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                }
+            ],
+            "position": {
+                "top": "64%",
+                "left": "50%"
+            },
+            "icon": ""
+        },
+        {
+            "startTime": "00:05:04.000",
+            "endTime": "00:05:06.000",
+            "text": "[slow soft steps]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                }
+            ],
+            "position": {
+                "top": "66%",
+                "left": "50%"
+            },
+            "icon": ""
+        },
+        {
+            "startTime": "00:05:11.000",
+            "endTime": "00:05:14.000",
+            "text": "[Soft clanking noises of unlocking the metal lock]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                }
+            ],
+            "position": {
+                "top": "80%",
+                "right": "30%"
+            },
+            "icon": ""
+        },
         {
             "soundOnScreen": true,
             "startTime": "00:05:15.500",
@@ -395,10 +673,51 @@
         },
         {
             "backgroundSound": true,
-            "startTime": "00:05:25.000",
+            "startTime": "00:05:23.000",
             "endTime": "00:05:34.800",
             "color": "rgb(30, 30, 30)",
             "keyFrames": "flikkering"
+        },
+        {
+            "soundOnScreen": true,
+            "startTime": "00:05:24.000",
+            "endTime": "00:05:32.500",
+            "position": {
+                "top": "60%",
+                "right": "40%"
+            },
+            "url": "/images/fly.png",
+            "animation": true
+        },
+        {
+            "startTime": "00:05:24.000",
+            "endTime": "00:05:28.000",
+            "text": "[Flies buzzing]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "position": {
+                "top": "75%",
+                "right": "35%"
+            }
+        },
+        {
+            "startTime": "00:05:24.000",
+            "endTime": "00:05:40.000",
+            "text": "[The background sound that consists of a shrill false beep and wood scratching sounds becomes louder and louder]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "position": {
+                "top": "-20%",
+                "right": "20%"
+            }
         },
         {
             "backgroundSound": true,
@@ -444,32 +763,6 @@
             ]
         },
         {
-            "soundOnScreen": true,
-            "startTime": "00:05:28.000",
-            "endTime": "00:05:32.500",
-            "position": {
-                "top": "60%",
-                "right": "40%"
-            },
-            "url": "/images/fly.png",
-            "animation": true
-        },
-        {
-            "startTime": "00:05:28.000",
-            "endTime": "00:05:30.000",
-            "text": "[Fly's buzzing]",
-            "styles": [
-                {
-                    "line": "color",
-                    "var": "white"
-                }
-            ],
-            "position": {
-                "top": "75%",
-                "right": "35%"
-            }
-        },
-        {
             "backgroundSound": true,
             "startTime": "00:05:41.800",
             "endTime": "00:05:43.000",
@@ -485,9 +778,9 @@
             ]
         },
         {
-            "startTime": "00:05:41.000",
+            "startTime": "00:05:40.000",
             "endTime": "00:05:44.000",
-            "text": "[Falling cans behind him]",
+            "text": "[Loud clanking sounds of cans falling behind him]",
             "styles": [
                 {
                     "line": "color",
@@ -496,7 +789,7 @@
             ],
             "position": {
                 "top": "70%",
-                "right": "50%"
+                "right": "30%"
             }
         },
         {
@@ -530,7 +823,7 @@
                     "var": "'Mandali', sans-serif"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:05:54.500",
@@ -546,7 +839,7 @@
                     "var": "'Mandali', sans-serif"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:05:56.916",
@@ -562,7 +855,7 @@
                     "var": "'Mandali', sans-serif"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:06:00.416",
@@ -578,7 +871,7 @@
                     "var": "'Mandali', sans-serif"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:06:04.750",
@@ -594,7 +887,7 @@
                     "var": "'Mandali', sans-serif"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:06:09.625",
@@ -610,7 +903,7 @@
                     "var": "'Mandali', sans-serif"
                 }
             ],
-            "icon": "👮🏼"
+            "icon": ""
         },
         {
             "startTime": "00:07:11.541",

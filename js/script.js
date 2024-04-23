@@ -79,7 +79,16 @@ async function fetchSubtitles() {
                     videoWrapper.appendChild(subtitleElement);
                     subtitleElement.style.position = "absolute";
                     subtitleElement.style.top = subtitle.position.top;
-                    subtitleElement.style.right = subtitle.position.right;
+                    if (subtitle.position.right) {
+                        subtitleElement.style.right = subtitle.position.right;
+                    } else {
+                        // console.log("Left:", subtitle.position.left);
+                        const left = subtitle.position.left;
+                        const number = parseInt(left, 10);
+                        const right = 100 - number;
+                        // console.log(right);
+                        subtitleElement.style.right = `${right}%`;
+                    }
                     keyframes = `
                 @keyframes ${animationName} {
                     0% {
@@ -266,7 +275,15 @@ async function fetchSubtitles() {
             case "soundOnScreen":
                 videoWrapper.appendChild(subtitleElement);
                 subtitleElement.style.top = position.top;
-                subtitleElement.style.right = position.right;
+                if (position.right) {
+                    subtitleElement.style.right = position.right;
+                } else {
+                    const left = position.left;
+                    const number = parseInt(left, 10);
+                    const right = 100 - number;
+                    subtitleElement.style.right = `${right}%`;
+                }
+             
                 console.log("ani", subtitle.animation);
                 if (subtitle.animation) {
                     keyframes = `
