@@ -2,12 +2,11 @@
 
 ## Intro
 
-Dit vak gaat over...
-De opdracht is...
+Dit vak gaat over het maken van een protoype voor een specifiek persoon. In plaats van inclusive design te maken, geen we in dit vak aan de slag met exclusive design en gaan wij testen met een aangegeven persoon met een beperking. Door een interview en 3 tests probeer ik en zo goed mogenlijk prototype te maken voor de testpersoon. De opdracht voor mij was om iets te maken voor Marie van Driessche. Marie is doof en is docent bij CMD en werkt als ontwerper bij Unc Inc. Marie wil graag dat ze geluid in films net zo kan ervaren als mensen die wel geluid horen en ook graag podcasts wil luisteren en die net zo aantrekkelijk en net zo veel details horen als mensen die wel kunnen horen. 
 
-Wij mochten Marie interviewen... dus hebben hetzelfde uur nog vragen bedacht die we konden stellen aan haar.
+## 💬 Interview 1 vragen met bevindingen (Week 1)
 
-## (Interview 1, Week 1) Vragen met bevindingen
+Wij mochten Marie gaan interviewen
 
 - Bent u doof geboren of doof geworden?
 - Waar komt uw passie voor podcasts of films vandaan? 
@@ -25,100 +24,69 @@ Begrijpt u de huidige muziek/effecten die worden omschreven in de ondertiteling 
 
 Marie is doof geboren, ze heeft dus een tolk nodig om met mensen die geen gebaren taal kunnen te communiceren. 
 
-<!-- #### Podcasts -->
+#### Podcasts
 
-Marie vindt podcasts saai. Ze heeft er niet veel ervaring mee want het is niet toegankelijk. Dit komt omdat ze niet kan horen, en daardoor moet zij er echt de tijd voor nemen om te kijken naar mensen die met elkaar praten terwijl ze op een bank zitten. Zonder geluid een podcast kijken is erg saai want het beeld is gewoon saai. Soms als ze het echt heel interressant vindt kan ze het transscript lezen van de podcast als die er is. Maar dat is vaak een hele grote lap tekst, onoverzichtelijk, en een goed geschreven artikel is veel fijner om te lezen. 
+Marie vindt podcasts saai. Ze heeft er niet veel ervaring mee want het is niet toegankelijk. Dit komt omdat ze niet kan horen, en daardoor moet zij er echt de tijd voor nemen om te kijken naar mensen die met elkaar praten terwijl ze op een bank zitten. Zonder geluid een podcast kijken is erg saai want het beeld is gewoon saai. Soms als ze het echt heel interressant vindt kan ze het transscript lezen van de podcast als die er is. Maar dat is vaak een hele grote lap tekst zonder intonatie, onoverzichtelijk, en een goed geschreven artikel is veel fijner om te lezen. 
 
-Films vindt ze leuker omdat beeld daar een grotere rol in speelt. 
-
-Ook bij films is de ondertiteling platte tekst en daar mist ze ook informatie. Ze noemde wat voorbeelden zoals hoe mensen praten en waar de geluiden vandaan komen. Ze gaf ook wat voorbeelden van wat ze had gezien wat ze fijn vond en noemde "The dodo" op youtube als voorbeeld waarbij ze streepjes als geluid had gezien om aan te geven wat voor emotie geluiden je hoort, en ook waar je het hoort.  
-<!-- Nog even nalezen -->
-
+Films vindt ze leuker omdat beeld daar een grotere rol in speelt. Maar ook bij films is de ondertiteling platte tekst en daar mist ze ook veel informatie. Ze noemde wat voorbeelden zoals hoe mensen praten en waar de geluiden vandaan komen. Ze gaf ook wat voorbeelden van wat ze had gezien wat ze fijn vond en noemde "The dodo" op youtube als voorbeeld. Hier worden bepaaalde geluiden als bepaalde streepjes gevisualiseerd om aan te geven wat voor emotie je hoort, en ook waar je het hoort.  
 Zelf beeld ze heel veel in over wat ze niet mee krijgt en heeft dit dus ook veel getraind. 
-Trillingen zouden kunnen helpen om de ervaring te verbeteren, zeker in de bios. Ook wil ze een keer naar IMAX of 4D in de bios om te ervaren of dat wat is. Maar trillingen zijn heel algemeen.
 
-Animaties kunnen helpen om bijvoorbeeld te laten merken waar geluid vandaan komt, dit geeft meer duidelijkheid en informatie over naar wat je kijkt. Ook zou dit kunnen helpen om te laten zien wie praat, hoe die praat. 
+Teon we vroegen of trillingen konden helpen om het geluid beter te begrijpen zei ze dat dat wel zou kunnen helpen om de ervaring te verbeteren, zeker in de bioscoop. Maar trillingen zijn heel algemeen en er zijn veel soorten geluiden en trillingen dus dat moet wel goed worden gemaakt. Verder wil ze ook wel een keer naar IMAX of 4D in de bios om te ervaren of dat wat is.
 
-Met verschillende font's en kleuren kan je spelen maar het moet niet te druk worden en wel consistent blijven. 
+Animaties zouden kunnen helpen om bijvoorbeeld te laten merken waar geluid vandaan komt. Dit geeft meer duidelijkheid en informatie over naar wat je kijkt. Ook zou dit kunnen helpen om te laten zien wie praat en hoe die praat. 
+Met verschillende font's en kleuren zouden we ook kunnen spelen om verschillende personen en intonatie aan te geven maar het moet niet te druk worden en wel consistent blijven. 
 
-Ook moeten we uitvogelen hoe we spannende muziek laten zien in iets visueels. Ze zei bijvoorbeeld: "denk aan shots, bloed, licht, mes etc" vooral klassieke dingen. 
+Muziek kan ze niet horen en krijgt ze helaas dus ook niet mee, dit geeft vaak wel de spanning weer in de film. Ook weet ze hoe muziek impact kan hebben op mensen hun emoties doordat ze dat heeft gezien op een begrafenis. Dit gevoel wil zij ook ervaren of in ieder geval dichter bij in de buurt komen. Over de huidige closed captions is ze opzich wel enthausiast, maar ze krijgt gewoon niet alle info en het gevoel mee van de platte tekst, dus dat kan zeker beter. 
 
-Muziek kan ze niet horen en krijgt ze helaas dus ook niet mee, dit geeft vaak wel de spanning weer in de film. Ook weet ze hoe muziek impact kan hebben op mensen hun emoties doordat ze dat heeft gezien op een begrafenis. Dit gevoel wil zij ook ervaren of in ieder geval dichter bij in de buurt komen. 
+Verder heeft ze wat films opgenoemd die ze vaak kijkt, waar ze voorbeelden uit noemde, en waar wij ook wat van konden kijken om te vergelijken.
 
-Over closed captions is ze opzich wel enthausiast, maar ze krijgt gewoon niet alle info en het gevoel mee van de platte tekst. 
+<!-- Ook moeten we uitvogelen hoe we spannende muziek laten zien in iets visueels. Ze zei bijvoorbeeld: "denk aan shots, bloed, licht, mes etc" vooral klassieke dingen.  -->
 
-Verder heeft ze wat films opgenoemd die ze vaak kijkt, waar ze voorbeelden uit noemde, en waar wij ook wat van konden kijken om te vergelijken 
+#### Begin onderzoek en begin van prototype
 
-<!-- Een podcast mist intonatie en maakt het saai -->
+Ik ben begonnen om alles op te schrijven van het interview en wat scenes van wat films te kijken. Ze had de `The bake off`, `3 body problem`, `The bear`, `The menu` en `The chestnutmen` genoemd als series die ze al had gezien. Verder heeft ze een hele brede interesse en kijkt ze ook naar de keuringsdienst van waarde en rupals dragrace. 
 
-#### Films om te kijken voor onderzoek
+Uiteindelijk heb ik wat dingen opgeschreven van dingen die mij opvielen tijdens het kijken van de scenes zonder geluid. Ik probeerde echt in de rol van Marie te stappen om zo te kijken wat zij meekrijgt. Ook heb ik daarna met closed captions gekeken, en daarna met geluid en closed captions. 
 
-- The bake off
-- 3 body problem
-- The bear
-- The menu
+**Zonder geluid, zonder cc:** hond die blaft zie je pas wanneer die in beeld is. Er liggen opeens meerdere lijken in het huis en er leeft nog iemand. 
 
-Verder heeft ze een hele brede interesse en kijkt ze ook naar de keuringsdienst van waarde en rupals dragrace. 
+**zonder geluid met cc:** korte cc van radio, de hond jankt en hij zucht, nu hoor en zie je pas dat het regent. nu hoor je dat hij uitstapt, en zie je dat er pop muziek speelt. vliegen hoor je in aanlopp van het dode varken. De hond blaft. Hij loopt door de deur naar de andere kamer, dit wist je eerst niet. Je ziet dat er water druppelt, je ziet nu dat hij wordt gebeld, je weet nu dat hij heftig ademt. hoe de deren klinken. wa hij hoord, soort van. Dat hij kreunt als hij wordt geslagen.
 
-<!-- ### TODO:
+**Met geluid:** 
 
-- [ ] Onderzoek doen.
-> films kijken, artikelen lezen
-> - The bear, the chestnut men. (the dune heeft goede closed captions)
-- [ ] experimenteren met captions.
-> wire frames maken
-> sfeer, intonatie, stijl van sprekers mee krijgen. Waar geluiden vandaan komen.
-veel experimenteren. -->
 
-<!-- ### Ideen 
+- De vrouw die je aan het begin hoort is blijkbaar via de politie radio en niet via een mobiel. 
+- Hij schreeuwt Orum maar dat zie je niet. 
+- Spannende muziek zie je niet.
+- Dat hij loopt naar de andere kamer zie je niet echt
+- Of hij verluisterd zie je niet. 
+- De crashing sound komt uit de basement
+- Hoe hij ademt zie je niet
+- Wat er omgestoot word zie je niet
+- Dat de vloer kraakt zie je niet
 
-Video in html laden
-Een bestand maken met timestamps van de ondertiteling.
-Met js dit over de video laten zien. 
-Met een style bestand dit stylen en extra's toevoegen.  -->
+Dit gaf mij een eerste goede houvast over wat ik zal maken. Ik had het idee om een video in te laden op de html pagina en niet via een vtt bestand maar gewoon vrij via een json file alle subtitles te generenen, dit zou mij meer opties geven om een background image te animeren, de subtitles te stylen en mogenlijk plaatjes in het beeld te plaatsen. Ik begon meteen met het maken van een prototype omdat ik dan iets bewegends kan laten zien i.p.v een wireframe met het idee. 
 
-Ik heb de chestnut man gekeken zonder geluid en met geluid en daar kwamen deze inzichten uit: 
-<!-- Nog even nalezen en vloeind maken -->
+## 📝 Feedback moment (Week 1)
 
-- Zonder geluid, zonder cc:
-> hond die blaft zie je pas wanneer die in beeld is. Er liggen opeens meerdere lijken in het huis en er leeft nog iemand. 
+## 🔎 (Testronde 1, Week 2)
 
-- met cc:
-> korte cc van radio, de hond jankt en hij zucht, nu hoor en zie je pas dat het regent. nu hoor je dat hij uitstapt, en zie je dat er pop muziek speelt. vliegen hoor je in aanlopp van het dode varken. De hond blaft. Hij loopt door de deur naar de andere kamer, dit wist je eerst niet. Je ziet dat er water druppelt, je ziet nu dat hij wordt gebeld, je weet nu dat hij heftig ademt. hoe de deren klinken. wa hij hoord, soort van. Dat hij kreunt als hij wordt geslagen.
+Bij mijn eerste test van mijn prototype had ik het eerste stuk van de onderititling in de json kunnen zetten gezet, en dit automatisch kunenn animeren onder het video element in de html. Ook had ik iets geprobeerd om een opbouwende spanning te visualiseren. Ik had namelijk wanneer het spannend werd, de achtergrondkleur de hele tijd van grijs naar zwart laten animeren. Ook had ik iets gedaan met streepjes in beeld om geluid te visualiseren. Ik was tijdens de test heel benieuwd of de bewegende achtergrond kleur het iets spannender zou maken, en of ik het goed had gedaan met het plaatje. 
 
-- Met geluid:
-De vrouw die je aan het begin hoort is blijkbaar via de politie radio en niet via een mobiel. 
-Hij schreeuwt Orum maar dat zie je niet. 
-spannende muziek zie je niet.
-dat hij loopt naar de andere kamer zie je niet echt
-of hij verluisterd zie je niet. 
-de crashing sound komt uit de basement
-hoe hij ademt zie je niet
-wat er omgestoot word zie je niet
-dat de vloer kraakt zie je niet
+Tijdens de test was ze erg enthausiast en ik heb wat duidelijke tips gekregen namelijk:
 
-## (Testronde 1, Week 2)
+### Tips: 
 
-Ik heb duidelijke test conclusies gekregen naar mijn mening. 
-Mijn aannamens voor deze test waren dat ik meer het soort geluid van wat voor kraak in de deur moest laten zien enzo, en ik was heel benieuwd of de bewegende achtergrond kleur het iets spannender zou maken. 
-
-### Tips voor mij: 
-
-- Ondertiteling te ver
-> Ondertiteling te ver van de person in beeld 
-- Een malige closed caption voor geluid afbeelding is goed
-> Kraak 1 keer met closed caption, 2de keer zonder valt goed in de smaak
-- Achtergrond visualisatie
-> De achtergrond visualiseerd nog niet genoeg de opbouwende spanning en muziek. 
-Ik moet hier nog meer de aard van het geluid en het gevoel broberen te visualiseren. 
-- Hierarchie
-> De tekst van de mevrouw aan de telefoon lijkt belangerijker dan de politie agent zn tekst, let op de hierarchie van de ondertitleing en laat deze overeen komen met wat er op het beeld speelt 
-- Animties in beeld
-> Ik moet daar consistent in zijn, wat laat ik zien als het geluid buiten beeld gebeurt. 
+- De ondertiteling staat te ver van de persoon in beeld.
+- De achtergrond visualiseerd nog niet genoeg de opbouwende spanning en muziek, want Marie snapte niet was het moest voorstellen. Ik moet hier nog meer de aard van het geluid en het gevoel proberen te visualiseren. 
+- De hierarchie van de ondertiteling klopt niet. De tekst van de mevrouw aan de telefoon lijkt belangerijker dan de politie agent z'n tekst, ik moet de hierarchie overeen laten komen met wat er op het beeld afspeelt.
+- Marie vroeg waarom ik geen animaties/plaatjes heb gemaakt voor geluiden die niet in beeld gebeuren. ik zei dat ik daar nog niet over na had gedacht. Zij zei toen van wat ik ook doe, blijf consistent in wat je kiest. 
+- De een malige closed caption voor geluid afbeelding werkt goed. Want de volgede keer weet ze wat het plaatje moet voorstellen. 
 
 Ook heb ik goed opgelet bij andere tests en gekeken wat ze daarvan vond zodat ik de dingen die ik nog moet doen meteen beter kan doen dan zonder die feedback al gehad te hebben.
-
+<!-- 
 ### Tips (Voor Niels): 
+
 Wat voor bel, probeer dat te omschrijven. 
 Kleur moet duidelijker verschillen.
 Ze wist niet dat een klap de hele sweer veranderde
@@ -126,23 +94,30 @@ Ze weet soms niet wie wat zegt.
 Langzaam pratende mensen ziet ze niet langzaam praten in de ondertiteling.
 Als iemand iets zegt op de achtergrond moet dat bij de ondertiteling staan.
 
-### Tips (Voor Eva):    
+### Tips (Voor Eva): 
+
 Sommige stukken zijn erg lang, mist intonatie, 
 Lees punt moet anders waardoor de animaties op verschillende punten komen.
 
 ### Tips (voor Joppe):
+
 De verschillende diktes en lettertypes werken prima, je kan er wel voor zetten wat het lettertype aantoont en later hoeft het er dan niet meer voor en pas weer na een lange tijd dat laten zien. 
-Ervoor zetten wie praat maar dat hoeft niet als het duidelijk is wie praat. Later in de film kan je eventueel de naam ervoor zetten. 
+Ervoor zetten wie praat maar dat hoeft niet als het duidelijk is wie praat. Later in de film kan je eventueel de naam ervoor zetten.  -->
+
+## 📝 Feedback moment met Tamara (Week 2)
 
 #### Todo's voor aankomende week
+
+Uiteindelijk had ik duidelijke doelen voor de komende test namelijk:
 
 - Op de opbouw itereren en varieren. (Verschillende versies maken en testen welke het best werkt)
 - Volgend gesprek vragen wat spanning voor haar is en wat zij visueel spannend eng.
 - Feedback toevoegen
 - Spelen met intonatie van de ondertiteling  
-<!-- Idee: lager is breder font, hoger is langer font, harder is groter font. -->
 
-## (Testronde 2, Week 3) 
+## 📝 Feedback moment (Week 2)
+
+## 🔎 (Testronde 2, Week 3) 
 
 Bij deze test had ik zo goed als alle feedback verwerkt van vorige week. Ook had ik een andere oplossing van het visualiseren van de 
 
@@ -176,6 +151,8 @@ Ook had ze nog een tip voor ons allemaal, kijk is de scene met zwart beeld, en l
 - Tekst helemaal uitleggen of alleen wat je hoort op de plek?, kan mss anders zijn bij omgevings geluiden en muziek.
 - Als het geluid maakt, moet het zichtbaar zijn.
 
+## 📝 Feedback moment (Week 3)
+
 ## Week 4
 
 Met de bevindingen van test 2 ben ik deze week verder gegaan, ik heb gedaan wat Marie had voorgesteld en dat was de scene te gaan beluisteren zonder beeld, dit allemaal op te schrijven en te omschrijven, en dit als closed captions neer te zetten. Hierdoor ziet ze welke geluiden je zou moeten horen waardoor zij zelf een beeld kan schetsen van de sfeer. 
@@ -183,13 +160,47 @@ Met de bevindingen van test 2 ben ik deze week verder gegaan, ik heb gedaan wat 
 - [x] alle geluiden in closed captions
 - [x] muziek omschrijven on closed captions
 - [x] iconen weghalen als het niet hoeft
-- [ ] het hevig ademen animeren
+- [x] het hevig ademen animeren
+- En het laatste stuk af gemaakt
+- verluister font toegevoegd
 
+Ik heb het laatste stuk helaas niet kunnen laten bounchen want de op achtergrond muziek gaat de winderige piep heel erg op en neer.
 
-#### Vragen voor de test:
+### 🔎 (Testronde 3, Week 4)
+
+**Vragen voor de test:**
 
 Is het te veel tekst van de omschrijving, moet het uitgebreider, of moet het meer in steekwoorden?
-Wanneer is het te veel tekst, wanneer te weinig.
+ => opknippen in stukjes zodat het leesbaarder wordt
+
+Wanneer is het te veel tekst, wanneer te weinig? => opknippen in stukjes zodat het leesbaarder wordt
+
 Is het duidelijk dat de achtergrond muziek, achtergrond muziek is en geen songtekst.
-Staat het op de juiste plek? Of moet het onderaan.
-Werkt het hevig ademen animeren goed?
+=> denkt dat het een songtekst is.
+
+De vorige keer had ik gevraagd wat jij visueel eng vind en daar had je geen antwoord op. Hieruit nam ik de conclusie dat wij een enge scene niet perse eng voor jou hoeven te maken maar ons best moeten doen om de sfeer zo goed mogelijk over te brengen. Heb ik hier de juiste conclusie uit getrokken? 
+=> klopt, spanning ligt aan de context natuurlijk en ze heeft wel een keer wakker gelegen van een enge film
+
+Heb je verder nog tips?
+=> nee, goed bezig
+
+Ze was verbaasd en enthausiast over hoe veel geluiden je hoort en dat er ook veel geluiden door elkaar lopen.
+
+**aantekeningen van andere tests:**
+
+Ze wil het ritme graag meekrijgen
+
+het trillen van de telefoon past niet echt bij het kloppen in de film
+geluid is trilling maar trillingen zijn ook altijd weer anders. 
+Wel passen de trillingen bij de laatste scene van de chestnut men
+
+mooie klap animatie van niels, 
+sound bar moet iets precieser, en accurater en dan zou het wel kunnen werken, en een goeie toevoeging zijn. 
+
+
+## Exclusive design principles:
+
+### Study situation
+### Ignore conventions
+### Prioritise identity
+### Add nonsense

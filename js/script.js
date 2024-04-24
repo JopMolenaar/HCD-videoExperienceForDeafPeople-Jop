@@ -92,42 +92,42 @@ async function fetchSubtitles() {
                             subtitleElement.style.right = `${right}%`;
                         }
                         keyframes = `
-                    @keyframes ${animationName} {
-                        0% {
-                            opacity: 0;
-                            scale: 1;
-                        }
-                        20%, 40%, 60%, 80% {
-                            scale: 1.05;
-                        }
-                        17%, 37%, 58%, 76% {
-                            scale: 1;
-                        }
-                        22%, 42%, 65%, 84% {
-                            scale: 1;
-                        }
-                        30%, 50%, 70%, 90% {
-                            scale: 1.1;
-                        }
-                        1% {
-                            opacity: 0;
-        
-                        }
-                        2% {
-                            opacity: 1;
-    
-                        }
-                        99% {
-                            scale: 1;
-                            opacity: 1;
+                            @keyframes ${animationName} {
+                                0% {
+                                    opacity: 0;
+                                    scale: 1;
+                                }
+                                20%, 40%, 60%, 80% {
+                                    scale: 1.05;
+                                }
+                                17%, 37%, 58%, 76% {
+                                    scale: 1;
+                                }
+                                22%, 42%, 65%, 84% {
+                                    scale: 1;
+                                }
+                                30%, 50%, 70%, 90% {
+                                    scale: 1.1;
+                                }
+                                1% {
+                                    opacity: 0;
                 
-                        }
-                        100% {
-                            opacity: 0;
-    
-                        }
-                    }
-                `;
+                                }
+                                2% {
+                                    opacity: 1;
+            
+                                }
+                                99% {
+                                    scale: 1;
+                                    opacity: 1;
+                        
+                                }
+                                100% {
+                                    opacity: 0;
+            
+                                }
+                            }
+                        `;
                     } else {
                         subtitlesContainer.appendChild(subtitleElement);
                         keyframes = `
