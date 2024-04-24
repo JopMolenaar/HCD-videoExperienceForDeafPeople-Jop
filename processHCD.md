@@ -15,3 +15,15 @@ Tijdens de test snapten ze niet echt wat het was en kon het het opbouwende gevoe
 Op donderdag had ik een gesprek met Tamara. Zij zei vooral dat ik moest vragen aan Marie wat spanning voor haar betekent en waardoor dat gecreëerd wordt. Niet heel persoonlijk maar meer visueel, wat maakt iets spannend voor haar. Ook zei ze dat ik meerdere versies moest gaan maken van de opbouwende spanning en dit aan haar later zien zodat ik kan kijken wat zij het best vindt werken. 
 
 Op vrijdag had ik een gesprek met Vasilis. Daar kwam uit dat ik goed op weg was en vooral zo door moest gaan, wel zei hij dat irritante geluiden mogen echt visueel pijn doen. Dit deed mij denken aan andere ideen en gaf mij extra inspiratie voor mijn project.
+
+### Week 3
+Deze week had ik de feedback van vorige testronde verwerkt
+getest:
+Die vrijdag had ik voortgang gesprek en daarbij had ik geen vragen, en geen feedback.
+
+### Week 4
+
+Deze week had ik de feedback van vorige testronde verwerkt
+Getests:
+
+Dingen die ik zou doen als ik verder zou gaan:

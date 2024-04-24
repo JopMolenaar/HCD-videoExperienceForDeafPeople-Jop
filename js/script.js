@@ -98,20 +98,27 @@ async function fetchSubtitles() {
                             scale: 1;
                         }
                         20%, 40%, 60%, 80% {
-                            scale: 1.2;
+                            scale: 1.05;
                         }
-                        30%, 50%, 70%, 90% {
+                        17%, 37%, 58%, 76% {
                             scale: 1;
                         }
-                        ${startTimePercentage}% {
+                        22%, 42%, 65%, 84% {
+                            scale: 1;
+                        }
+                        30%, 50%, 70%, 90% {
+                            scale: 1.1;
+                        }
+                        1% {
                             opacity: 0;
         
                         }
-                        ${startTimePercentage + 0.1}% {
+                        2% {
                             opacity: 1;
     
                         }
                         99% {
+                            scale: 1;
                             opacity: 1;
                 
                         }
@@ -130,11 +137,11 @@ async function fetchSubtitles() {
                             height: 1px;
                             scale: 1;
                         }
-                        ${startTimePercentage}% {
+                        1% {
                             opacity: 0;
                             height: 1px;
                         }
-                        ${startTimePercentage + 0.1}% {
+                        2% {
                             opacity: 1;
                             height: fit-content;
                         }
@@ -145,7 +152,7 @@ async function fetchSubtitles() {
                             scale: 1;
                         }
                         22%, 42%, 65%, 84% {
-                            scale: 1;
+                            scale: 0.9;
                         }
                         30%, 50%, 70%, 90% {
                             scale: 1.1;
@@ -183,11 +190,11 @@ async function fetchSubtitles() {
                             opacity: 0;
     
                         }
-                        ${startTimePercentage}% {
+                        1% {
                             opacity: 0;
         
                         }
-                        ${startTimePercentage + 0.1}% {
+                        2% {
                             opacity: 1;
     
                         }
@@ -209,11 +216,11 @@ async function fetchSubtitles() {
                             opacity: 0;
                             height: 1px;
                         }
-                        ${startTimePercentage}% {
+                        1% {
                             opacity: 0;
                             height: 1px;
                         }
-                        ${startTimePercentage + 0.1}% {
+                        2% {
                             opacity: 1;
                             height: fit-content;
                         }

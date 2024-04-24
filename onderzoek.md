@@ -184,3 +184,12 @@ Met de bevindingen van test 2 ben ik deze week verder gegaan, ik heb gedaan wat 
 - [x] muziek omschrijven on closed captions
 - [x] iconen weghalen als het niet hoeft
 - [ ] het hevig ademen animeren
+
+
+#### Vragen voor de test:
+
+Is het te veel tekst van de omschrijving, moet het uitgebreider, of moet het meer in steekwoorden?
+Wanneer is het te veel tekst, wanneer te weinig.
+Is het duidelijk dat de achtergrond muziek, achtergrond muziek is en geen songtekst.
+Staat het op de juiste plek? Of moet het onderaan.
+Werkt het hevig ademen animeren goed?
