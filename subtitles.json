@@ -213,8 +213,8 @@
                 }
             ],
             "position": {
-                "top": "80%",
-                "right": "40%"
+                "top": "70%",
+                "right": "50%"
             }
         },
         {
@@ -295,7 +295,7 @@
         },
         {
             "startTime": "00:04:34.000",
-            "endTime": "00:04:35.708",
+            "endTime": "00:04:36.208",
             "text": "[Two short clanking sounds]",
             "styles": [
                 {
@@ -507,8 +507,8 @@
             "icon": ""
         },
         {
-            "startTime": "00:04:54.000",
-            "endTime": "00:04:55.500",
+            "startTime": "00:04:55.000",
+            "endTime": "00:04:56.500",
             "text": "[Deep sigh]",
             "styles": [
                 {
@@ -523,6 +523,22 @@
             "position": {
                 "top": "50%",
                 "right": "40%"
+            },
+            "icon": ""
+        },
+        {
+            "startTime": "00:04:50.000",
+            "endTime": "00:05:20.000",
+            "text": "♫ A hollow windy sound plays softly on the background ♫",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "position": {
+                "top": "0%",
+                "right": "15%"
             },
             "icon": ""
         },
@@ -542,6 +558,7 @@
             ]
         },
         {
+            "animateBreathing": true,
             "startTime": "00:04:57.000",
             "endTime": "00:05:07.000",
             "text": "[Nervous breathing]",
@@ -643,7 +660,7 @@
         },
         {
             "startTime": "00:05:11.000",
-            "endTime": "00:05:14.000",
+            "endTime": "00:05:15.000",
             "text": "[Soft clanking noises of unlocking the metal lock]",
             "styles": [
                 {
@@ -680,7 +697,7 @@
         },
         {
             "soundOnScreen": true,
-            "startTime": "00:05:24.000",
+            "startTime": "00:05:27.000",
             "endTime": "00:05:32.500",
             "position": {
                 "top": "60%",
@@ -690,7 +707,7 @@
             "animation": true
         },
         {
-            "startTime": "00:05:24.000",
+            "startTime": "00:05:27.000",
             "endTime": "00:05:28.000",
             "text": "[Flies buzzing]",
             "styles": [
@@ -705,9 +722,9 @@
             }
         },
         {
-            "startTime": "00:05:24.000",
+            "startTime": "00:05:18.000",
             "endTime": "00:05:40.000",
-            "text": "[The background sound that consists of a shrill false beep and wood scratching sounds becomes louder and louder]",
+            "text": "♫ A shrill false beep ♫",
             "styles": [
                 {
                     "line": "color",
@@ -715,9 +732,26 @@
                 }
             ],
             "position": {
-                "top": "-20%",
+                "top": "0%",
+                "right": "50%"
+            },
+            "icon": ""
+        },
+        {
+            "startTime": "00:05:30.000",
+            "endTime": "00:05:40.000",
+            "text": "♫ Wood scratching sounds becomes louder and louder ♫",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "position": {
+                "top": "10%",
                 "right": "20%"
-            }
+            },
+            "icon": ""
         },
         {
             "backgroundSound": true,
@@ -793,7 +827,23 @@
             }
         },
         {
-            "startTime": "00:05:41.000",
+            "startTime": "00:05:44.000",
+            "endTime": "00:05:45:500",
+            "text": "[Deep sigh]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "icon": "👮🏼",
+            "position": {
+                "top": "75%",
+                "right": "28%"
+            }
+        },
+        {
+            "startTime": "00:05:45.000",
             "endTime": "00:05:49.000",
             "text": "[Heavy breathing]",
             "styles": [
@@ -802,16 +852,36 @@
                     "var": "white"
                 }
             ],
-            "icon": "👮🏼",
+            "icon": "",
             ".": "// TODO groter en kleiner animeren",
             "position": {
-                "top": "80%",
+                "top": "75%",
                 "right": "28%"
             }
         },
         {
-            "startTime": "00:05:50.000",
-            "endTime": "00:05:53.250",
+            "startTime": "00:05:49.000",
+            "endTime": "00:05:51.000",
+            "text": "ssssssjt",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "darkblue"
+                },
+                {
+                    "line": "font",
+                    "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
+                }
+            ],
+            "icon": ""
+        },
+        {
+            "startTime": "00:05:51.000",
+            "endTime": "00:05:54.000",
             "text": "There... Quiet. Easy now.",
             "styles": [
                 {
@@ -821,13 +891,17 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
                 }
             ],
             "icon": ""
         },
         {
-            "startTime": "00:05:54.500",
-            "endTime": "00:05:55.500",
+            "startTime": "00:05:54.000",
+            "endTime": "00:05:57.000",
             "text": "There you go.",
             "styles": [
                 {
@@ -837,13 +911,32 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
                 }
             ],
             "icon": ""
         },
         {
-            "startTime": "00:05:56.916",
-            "endTime": "00:05:59.500",
+            "startTime": "00:05:53.000",
+            "endTime": "00:05:55.000",
+            "text": "[Soft wooden bonk]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "position": {
+                "top": "70%",
+                "right": "70%"
+            }
+        },
+        {
+            "startTime": "00:05:57.000",
+            "endTime": "00:05:59.000",
             "text": "Don't be afraid. I'm a police officer.",
             "styles": [
                 {
@@ -853,13 +946,17 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
                 }
             ],
             "icon": ""
         },
         {
-            "startTime": "00:06:00.416",
-            "endTime": "00:06:03.083",
+            "startTime": "00:05:57.000",
+            "endTime": "00:06:03.000",
             "text": "My name is Marius, and I'm here to help you.",
             "styles": [
                 {
@@ -869,13 +966,17 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
                 }
             ],
             "icon": ""
         },
         {
-            "startTime": "00:06:04.750",
-            "endTime": "00:06:06.458",
+            "startTime": "00:06:02.000",
+            "endTime": "00:06:06.000",
             "text": "You're Astrid, right?",
             "styles": [
                 {
@@ -885,13 +986,17 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
                 }
             ],
             "icon": ""
         },
         {
-            "startTime": "00:06:09.625",
-            "endTime": "00:06:10.791",
+            "startTime": "00:06:08.000",
+            "endTime": "00:06:13.000",
             "text": "Do you live down here?",
             "styles": [
                 {
@@ -901,20 +1006,104 @@
                 {
                     "line": "font",
                     "var": "'Mandali', sans-serif"
+                },
+                {
+                    "line": "position",
+                    "var": "center"
                 }
             ],
             "icon": ""
         },
         {
-            "startTime": "00:07:11.541",
-            "endTime": "00:07:14.541",
-            "text": "THE CHESTNUT MAN",
+            "startTime": "00:06:15.000",
+            "endTime": "00:06:17.000",
+            "text": "[Loud splash sound]",
             "styles": [
                 {
                     "line": "color",
-                    "var": "black"
+                    "var": "white"
+                }
+            ],
+            "icon": "",
+            "position": {
+                "top": "80%",
+                "right": "30%"
+            }
+        },
+        {
+            "startTime": "00:06:17.000",
+            "endTime": "00:06:20.000",
+            "text": "[A bonk from Marius falling on the floor]",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "icon": "",
+            "position": {
+                "top": "80%",
+                "right": "30%"
+            }
+        },
+        {
+            "backgroundSound": true,
+            "startTime": "00:06:18.000",
+            "endTime": "00:06:34.000",
+            "styles": [
+                {
+                    "line": "background",
+                    "var": "radial-gradient(circle at 50%, transparent, transparent 20%, black 30%, black 100%)"
+                },
+                {
+                    "line": "opacity",
+                    "var": "0"
+                },
+                {
+                    "line": "animation-timing-function",
+                    "var": "linear"
+                }
+            ],
+            "keyFrames": "animatedGradient"
+        },
+        {
+            "backgroundSound": true,
+            "startTime": "00:06:18.000",
+            "endTime": "00:06:34.000",
+            "styles": [
+                {
+                    "line": "background-color",
+                    "var": "white"
+                },
+                {
+                    "line": "opacity",
+                    "var": "0"
+                },
+                {
+                    "line": "background-image",
+                    "var": "url('images/cracks.jpeg')"
+                },
+                {
+                    "line": "filter",
+                    "var": "invert(100%)"
                 }
             ]
+        },
+        {
+            "startTime": "00:06:18.000",
+            "endTime": "00:06:34.000",
+            "text": "♫ a shrill false beep and Wood scratching sounds becomes really loud ♫",
+            "styles": [
+                {
+                    "line": "color",
+                    "var": "white"
+                }
+            ],
+            "position": {
+                "top": "10%",
+                "right": "0%"
+            },
+            "icon": ""
         }
     ]
 }

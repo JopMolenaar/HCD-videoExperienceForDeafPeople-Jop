@@ -75,71 +75,161 @@ async function fetchSubtitles() {
         switch (switchCase) {
             case "text":
                 applyStyles(subtitleElement, styles);
-                if (subtitle.position) {
-                    videoWrapper.appendChild(subtitleElement);
-                    subtitleElement.style.position = "absolute";
-                    subtitleElement.style.top = subtitle.position.top;
-                    if (subtitle.position.right) {
-                        subtitleElement.style.right = subtitle.position.right;
-                    } else {
-                        // console.log("Left:", subtitle.position.left);
-                        const left = subtitle.position.left;
-                        const number = parseInt(left, 10);
-                        const right = 100 - number;
-                        // console.log(right);
-                        subtitleElement.style.right = `${right}%`;
-                    }
-                    keyframes = `
-                @keyframes ${animationName} {
-                    0% {
-                        opacity: 0;
-
-                    }
-                    ${startTimePercentage}% {
-                        opacity: 0;
+                if (subtitle.animateBreathing) {
+                    console.log("animateBreathing");
+                    if (subtitle.position) {
+                        videoWrapper.appendChild(subtitleElement);
+                        subtitleElement.style.position = "absolute";
+                        subtitleElement.style.top = subtitle.position.top;
+                        if (subtitle.position.right) {
+                            subtitleElement.style.right = subtitle.position.right;
+                        } else {
+                            // console.log("Left:", subtitle.position.left);
+                            const left = subtitle.position.left;
+                            const number = parseInt(left, 10);
+                            const right = 100 - number;
+                            // console.log(right);
+                            subtitleElement.style.right = `${right}%`;
+                        }
+                        keyframes = `
+                    @keyframes ${animationName} {
+                        0% {
+                            opacity: 0;
+                            scale: 1;
+                        }
+                        20%, 40%, 60%, 80% {
+                            scale: 1.2;
+                        }
+                        30%, 50%, 70%, 90% {
+                            scale: 1;
+                        }
+                        ${startTimePercentage}% {
+                            opacity: 0;
+        
+                        }
+                        ${startTimePercentage + 0.1}% {
+                            opacity: 1;
     
+                        }
+                        99% {
+                            opacity: 1;
+                
+                        }
+                        100% {
+                            opacity: 0;
+    
+                        }
                     }
-                    ${startTimePercentage + 0.1}% {
-                        opacity: 1;
-
+                `;
+                    } else {
+                        subtitlesContainer.appendChild(subtitleElement);
+                        keyframes = `
+                    @keyframes ${animationName} {
+                        0% {
+                            opacity: 0;
+                            height: 1px;
+                            scale: 1;
+                        }
+                        ${startTimePercentage}% {
+                            opacity: 0;
+                            height: 1px;
+                        }
+                        ${startTimePercentage + 0.1}% {
+                            opacity: 1;
+                            height: fit-content;
+                        }
+                        20%, 40%, 60%, 80% {
+                            scale: 1.05;
+                        }
+                        17%, 37%, 58%, 76% {
+                            scale: 1;
+                        }
+                        22%, 42%, 65%, 84% {
+                            scale: 1;
+                        }
+                        30%, 50%, 70%, 90% {
+                            scale: 1.1;
+                        }
+                        99% {
+                            scale: 1;
+                            opacity: 1;
+                            height: fit-content;
+                        }
+                        100% {
+                            opacity: 0;
+                            height: 1px;
+                        }
                     }
-                    99% {
-                        opacity: 1;
-            
+                `;
                     }
-                    100% {
-                        opacity: 0;
-
-                    }
-                }
-            `;
                 } else {
-                    subtitlesContainer.appendChild(subtitleElement);
-                    keyframes = `
-                @keyframes ${animationName} {
-                    0% {
-                        opacity: 0;
-                        height: 1px;
+                    if (subtitle.position) {
+                        videoWrapper.appendChild(subtitleElement);
+                        subtitleElement.style.position = "absolute";
+                        subtitleElement.style.top = subtitle.position.top;
+                        if (subtitle.position.right) {
+                            subtitleElement.style.right = subtitle.position.right;
+                        } else {
+                            // console.log("Left:", subtitle.position.left);
+                            const left = subtitle.position.left;
+                            const number = parseInt(left, 10);
+                            const right = 100 - number;
+                            // console.log(right);
+                            subtitleElement.style.right = `${right}%`;
+                        }
+                        keyframes = `
+                    @keyframes ${animationName} {
+                        0% {
+                            opacity: 0;
+    
+                        }
+                        ${startTimePercentage}% {
+                            opacity: 0;
+        
+                        }
+                        ${startTimePercentage + 0.1}% {
+                            opacity: 1;
+    
+                        }
+                        99% {
+                            opacity: 1;
+                
+                        }
+                        100% {
+                            opacity: 0;
+    
+                        }
                     }
-                    ${startTimePercentage}% {
-                        opacity: 0;
-                        height: 1px;
+                `;
+                    } else {
+                        subtitlesContainer.appendChild(subtitleElement);
+                        keyframes = `
+                    @keyframes ${animationName} {
+                        0% {
+                            opacity: 0;
+                            height: 1px;
+                        }
+                        ${startTimePercentage}% {
+                            opacity: 0;
+                            height: 1px;
+                        }
+                        ${startTimePercentage + 0.1}% {
+                            opacity: 1;
+                            height: fit-content;
+                        }
+                        99% {
+                            opacity: 1;
+                            height: fit-content;
+                        }
+                        100% {
+                            opacity: 0;
+                            height: 1px;
+                        }
                     }
-                    ${startTimePercentage + 0.1}% {
-                        opacity: 1;
-                        height: fit-content;
-                    }
-                    99% {
-                        opacity: 1;
-                        height: fit-content;
-                    }
-                    100% {
-                        opacity: 0;
-                        height: 1px;
+                `;
                     }
                 }
-            `;
-                }
+
 
                 break;
             case "backgroundSound":

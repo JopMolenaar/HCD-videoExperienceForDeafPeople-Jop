@@ -180,7 +180,7 @@ Ook had ze nog een tip voor ons allemaal, kijk is de scene met zwart beeld, en l
 
 Met de bevindingen van test 2 ben ik deze week verder gegaan, ik heb gedaan wat Marie had voorgesteld en dat was de scene te gaan beluisteren zonder beeld, dit allemaal op te schrijven en te omschrijven, en dit als closed captions neer te zetten. Hierdoor ziet ze welke geluiden je zou moeten horen waardoor zij zelf een beeld kan schetsen van de sfeer. 
 
-- alle geluiden in closed captions
-- muziek omschrijven on closed captions
-- iconen weghalen als het niet hoeft
-- het hevig ademen animeren
+- [x] alle geluiden in closed captions
+- [x] muziek omschrijven on closed captions
+- [x] iconen weghalen als het niet hoeft
+- [ ] het hevig ademen animeren
