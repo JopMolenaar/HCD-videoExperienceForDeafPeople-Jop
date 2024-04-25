@@ -44,22 +44,33 @@ Ik ben begonnen om alles op te schrijven van het interview en wat scenes van wat
 
 Uiteindelijk heb ik wat dingen opgeschreven van dingen die mij opvielen tijdens het kijken van de scenes zonder geluid. Ik probeerde echt in de rol van Marie te stappen om zo te kijken wat zij meekrijgt. Ook heb ik daarna met closed captions gekeken, en daarna met geluid en closed captions. 
 
-<!-- nog even mooi maken -->
-**Zonder geluid, zonder cc:** hond die blaft zie je pas wanneer die in beeld is. Er liggen opeens meerdere lijken in het huis en er leeft nog iemand. 
+**Zonder geluid, zonder cc:** 
 
-**zonder geluid met cc:** korte cc van radio, de hond jankt en hij zucht, nu hoor en zie je pas dat het regent. nu hoor je dat hij uitstapt, en zie je dat er pop muziek speelt. vliegen hoor je in aanlopp van het dode varken. De hond blaft. Hij loopt door de deur naar de andere kamer, dit wist je eerst niet. Je ziet dat er water druppelt, je ziet nu dat hij wordt gebeld, je weet nu dat hij heftig ademt. hoe de deren klinken. wa hij hoord, soort van. Dat hij kreunt als hij wordt geslagen.
+- Een hond die blaft zie je pas wanneer die in beeld is. En verder krijg je pas alles mee het in beeld is en veel krijg je niet eens mee. 
+
+**Zonder geluid met cc:** 
+
+- Korte cc van radio
+- De hond jankt en hij zucht
+- Nu hoor en zie je pas dat het regent. 
+- Je hoort dat hij uitstapt, en zie je dat er pop muziek speelt. 
+- Vliegen hoor je in aanlopp van het dode varken. 
+- Hij loopt door de deur naar de andere kamer, dit wist je eerst niet. 
+- Je ziet dat er water druppelt in de badkamer
+- Je weet nu dat hij heftig ademt.
+- Dat hij kreunt als hij wordt geslagen.
 
 **Met geluid:** 
+
 - De vrouw die je aan het begin hoort is blijkbaar via de politie radio en niet via een mobiel. 
 - Hij schreeuwt Orum maar dat zie je niet. 
 - Spannende muziek zie je niet.
-- Dat hij loopt naar de andere kamer zie je niet echt
+- Dat hij loopt naar de andere kamer zie je niet echt goed
 - Of hij verluisterd zie je niet. 
-- De crashing sound komt uit de basement
+- Het vallende geluid komt uit de kelder
 - Hoe hij ademt zie je niet
 - Wat er omgestoot word zie je niet
 - Dat de vloer kraakt zie je niet
-<!--  -->
 
 Dit gaf mij een eerste goede houvast over wat ik zal maken. Ik had het idee om een video in te laden op de html pagina en niet via een vtt bestand maar gewoon vrij via een json file alle subtitles te generenen, dit zou mij meer opties geven om een background image te animeren, de subtitles te stylen en mogenlijk plaatjes in het beeld te plaatsen. Ik begon meteen met het maken van een prototype omdat ik dan iets bewegends kan laten zien i.p.v een wireframe met het idee. 
 
@@ -189,6 +200,10 @@ Verder had ze geen tips, en was weer erg enthausiast en zelfs een beetje verbaas
 > Het trillen van de telefoon past niet echt bij het kloppen op de deur in de film, geluid bestaat uit trillingen maar trillingen zijn ook altijd weer anders, daarom als je met trillingen werkt moet het wel passen bij het geluid wat je zou horen. Wel vindt ze de trillingen goed passen bij de laatste scene van de chestnutmen.
 >
 > Iemand had een sound bar/ frequentie meter gemaakt maar die moet iets precieser gemaakt worden en accurater. Als dat zo is dan zou het wel kunnen werken, en een goeie toevoeging zijn. 
+
+### Wat ik zou doen voor de volgende test
+
+De closed captions van de muziek en andere achtergrond geluiden opdelen in stukjes, zo wordt het leesbaarder. Ook zou ik kijken wat voor iconen ik zou kunnen gebruiken voor achtergrond geluid i.p.v ♫. Het moet duidelijk zijn of het wordt gezongen of dat het de muziek omschrijft. Ook zou ik het laatste stuk nog willen laten bounchen met de achtergrond afbeelding zodat het meer lijkt op wat voor een geluid er afspeelt. En verder zou ik de javascript code opschonen, zodat je het makkelijker voor andere scenes kan invullen en maken. 
 
 ## Exclusive design principles:
 
