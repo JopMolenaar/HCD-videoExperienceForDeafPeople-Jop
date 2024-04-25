@@ -20,7 +20,7 @@ Wij mochten Marie gaan interviewen
 Begrijpt u de huidige muziek/effecten die worden omschreven in de ondertiteling zoals [spannende muziek] of [Er wordt geklopt]?
 - Zou u de extra informatie uit de video het liefst in tekst zien of zouden animaties of afbeeldingen als overlay bij de video ook helpen?
 
-### Bevindingen
+### 💡 Bevindingen
 
 Marie is doof geboren, ze heeft dus een tolk nodig om met mensen die geen gebaren taal kunnen te communiceren. 
 
@@ -84,7 +84,7 @@ Bij mijn eerste test van mijn prototype had ik het eerste stuk van de onderititl
 
 Tijdens de test was ze erg enthausiast en ik heb wat duidelijke tips gekregen namelijk:
 
-### Tips: 
+### 💡 Bevindingen 
 
 - De ondertiteling staat te ver van de persoon in beeld.
 - De achtergrond visualiseerd nog niet genoeg de opbouwende spanning en muziek, want Marie snapte niet was het moest voorstellen. Ik moet hier nog meer de aard van het geluid en het gevoel proberen te visualiseren. 
@@ -133,7 +133,7 @@ Wat ik wilde testen was of mijn ideeen die ik nog heb, de goede weg op gaan, of 
 
 Ik had helaas niet meerdere versies kunnen maken van de opbouwende spanning omdat mijn eerste versie/idee na de feedback al heel veel tijd kostte. 
 
-### Bevindingen
+### 💡 Bevindingen
 
 Ze was erg enthausiast over de achtergrond afbeelding bij het grimmige muziekje dat afspeelde als de kastanjemannen in beeld komen in de kelder. 
 
@@ -185,7 +185,7 @@ Voor de test 3 had ik een aantal vragen opgesteld en dingen opgeschreven die ik 
 - De vorige keer had ik gevraagd wat jij visueel eng vind en daar had je geen antwoord op. Hieruit nam ik de conclusie dat wij een enge scene niet perse eng voor jou hoeven te maken maar ons best moeten doen om de sfeer zo goed mogelijk over te brengen. Heb ik hier de juiste conclusie uit getrokken?
 - Heb je verder nog tips?
 
-### Bevindingen
+### 💡 Bevindingen
 
 De omschrijving van de muziek en geluiden waren inderdaad iets aan de lange kant. Ik zou dit kunnen opknippen in stukken om dit leesbaarder te maken. 
 Ze wist niet zeker of de tekst tussen deze ♫ iconen een songtekst was of de achtergond moest omschrijven. 
@@ -201,27 +201,27 @@ Verder had ze geen tips, en was weer erg enthausiast en zelfs een beetje verbaas
 >
 > Iemand had een sound bar/ frequentie meter gemaakt maar die moet iets precieser gemaakt worden en accurater. Als dat zo is dan zou het wel kunnen werken, en een goeie toevoeging zijn. 
 
-### Wat ik zou doen voor de volgende test
+### 🔜 Wat ik zou doen voor de volgende test
 
 De closed captions van de muziek en andere achtergrond geluiden opdelen in stukjes, zo wordt het leesbaarder. Ook zou ik kijken wat voor iconen ik zou kunnen gebruiken voor achtergrond geluid i.p.v ♫. Het moet duidelijk zijn of het wordt gezongen of dat het de muziek omschrijft. Ook zou ik het laatste stuk nog willen laten bounchen met de achtergrond afbeelding zodat het meer lijkt op wat voor een geluid er afspeelt. En verder zou ik de javascript code opschonen, zodat je het makkelijker voor andere scenes kan invullen en maken. 
 
-## Exclusive design principles:
+## 👤 Exclusive design principles:
 
 Bij het maken van een exclusief prototype voor een aangewezen persoon, gebruik je niet inclusive design principles maar exclusive design principles. Dit zijn: study situation, ignore conventions, prioritise identity en add nonsense.
 
-### Study situation
+### 🧐 Study situation
 
 Study situation is vooral terug gekomen tijdens het interview en het verdere onderzoek na het interview. Wij mochten namelijk aan Marie een aantal vragen stellen en daarna ben ik met deze kennis verder in haar rol gestapt door het kijken van series zonder geluid en zonder closed captions, zonder geluid en met closed captions, en met geluid en met closed captions om te kijken wat Marie nou meekrijgt en wat er nou echt allemaal gebeurt.
 Ook vindt ik study situation horen bij het testen van de prototypes, want daar studeer je eigenlijk haar situatie steeds opnieuw alleen dan met jouw gemaakte prototype. Ook heb ik tijdens de tests af en toe nog meer vragen gesteld over haar situatie zoals de vraag over wat iets visueels spannend maakt voor haar. Vragen blijven stellen in het process is belangrijk want je gaat nooit iemand helemaal meteen kennen in het eerste uurtje interview.
  
-### Ignore conventions
+### 🫣 Ignore conventions
 
 Nadat ik haar situatie had bestudeerd heb ik een beetje gebrainstormd en dingen gemaakt die haar zouden helpen zonder aan andere mensen gedacht te hebben. Ik heb bijvoorbeeld dingen snel laten knipperen en normaal zou je dat niet mogen of moeten doen om zo mensen met epilepsie te beschermen. Maar aangezien Marie dat niet heeft en het prototype alleen voor haar is, kon dat nu wel. 
 
-### Prioritise identity
+### 🫵 Prioritise identity
 
 Prioritise identity heb ik meerdere malen laten zien in mijn proces. Tijdens het proces heb ik namelijk 3 keer mijn prototype kunnen testen met Marie. Hieruit heb ik steeds nieuwe inzichten gekregen die ik later weer heb toegevoegd aan mijn prototype om zo het prototype steeds beter voor haar te maken en meer naar haar wensen toe te brengen. ZO gaf ze bijvoorbeeld aan dat iets wat ik had geprobeerd totaal werkte en ik daar dus iets nieuws voor moest verzinnen, ik had daar natuurlijk meteen wat vragen na gesteld zodat dat mij weer in een goede richting zou lijden. 
 
-### Add nonsense
+### 🃏 Add nonsense
 
 Add nonsense heb ik in zekere maten doorgevoerd in mijn prototype. Ik ben verder gegaan dan wat er al was. Closed captions en geanimeerde tekst waren er namelijk al, maar ik heb ook gebrainstormd en geexperimenteerd met afbeeldingen in beeld, de tekst op verschillende plaatsen in beeld achtergrond plaatjes en achtergrond kleuren. Ik ben niet over de top gegaan met add nonsense omdat ze tijdens haar interview ook al had gezegd dat het niet te druk moet worden en consistent moet blijven, en natuurlijk gaat het om de film met als hulpmiddel de closed captions etc, en niet alleen om de ondertiteling. 
