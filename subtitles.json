@@ -413,7 +413,7 @@
                 "top": "40%",
                 "right": "40%"
             },
-            "url": "/images/crackStripes.png"
+            "url": "images/crackStripes.png"
         },
         {
             "startTime": "00:04:44.000",
@@ -658,7 +658,7 @@
                 "top": "40%",
                 "right": "40%"
             },
-            "url": "/images/crackStripes.png"
+            "url": "images/crackStripes.png"
         },
         {
             "backgroundSound": true,
@@ -675,7 +675,7 @@
                 "top": "60%",
                 "right": "40%"
             },
-            "url": "/images/fly.png",
+            "url": "images/fly.png",
             "animation": true
         },
         {
