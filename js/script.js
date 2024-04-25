@@ -8,6 +8,7 @@ const backgroundColorElement = document.querySelector("main div:nth-child(1)");
 const videoWrapper = document.querySelector("main > div > div ");
 async function fetchSubtitles() {
     const response = await fetch("../subtitles.json");
+    console.log(response);
     const data = await response.json();
 
     const subtitlesContainer = document.createElement("div");
