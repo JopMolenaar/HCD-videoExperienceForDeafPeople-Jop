@@ -84,25 +84,18 @@ Tijdens de test was ze erg enthausiast en ik heb wat duidelijke tips gekregen na
 - De een malige closed caption voor geluid afbeelding werkt goed. Want de volgede keer weet ze wat het plaatje moet voorstellen. 
 
 Ook heb ik goed opgelet bij andere tests en gekeken wat ze daarvan vond zodat ik de dingen die ik nog moet doen meteen beter kan doen dan zonder die feedback al gehad te hebben.
-<!-- 
-### Tips (Voor Niels): 
 
-Wat voor bel, probeer dat te omschrijven. 
-Kleur moet duidelijker verschillen.
-Ze wist niet dat een klap de hele sweer veranderde
-Ze weet soms niet wie wat zegt.
-Langzaam pratende mensen ziet ze niet langzaam praten in de ondertiteling.
-Als iemand iets zegt op de achtergrond moet dat bij de ondertiteling staan.
-
-### Tips (Voor Eva): 
-
-Sommige stukken zijn erg lang, mist intonatie, 
-Lees punt moet anders waardoor de animaties op verschillende punten komen.
-
-### Tips (voor Joppe):
-
-De verschillende diktes en lettertypes werken prima, je kan er wel voor zetten wat het lettertype aantoont en later hoeft het er dan niet meer voor en pas weer na een lange tijd dat laten zien. 
-Ervoor zetten wie praat maar dat hoeft niet als het duidelijk is wie praat. Later in de film kan je eventueel de naam ervoor zetten.  -->
+> **Aantekeningen van andere tests:**
+>
+> - Wat voor een geluid moest iemand omschrijven
+> - Iemand moest goed aangeven wat voor geluid de hele sfeer veranderde. 
+> - Langzaam pratende mensen ziet ze niet langzaam praten in de ondertiteling
+> - Als iemand iets zegt op de achtergrond moet dat bij de ondertiteling staan
+> - Sommige stukken zijn erg lang, mist intonatie
+> - Lees punt moet anders waardoor de animaties op verschillende punten komen
+> - De verschillende diktes en lettertypes werken prima, je kan er wel voor zetten wat het lettertype aantoont en later hoeft het er dan niet meer voor en pas weer na een lange tijd dat laten zien waarvoor dat lettertype voor dient. 
+> - Ervoor zetten wie praat maar dat hoeft niet als het duidelijk is wie praat.
+> - Later in de film kan je eventueel de naam ervoor zetten aangezien je niet perse meteen weet wie die persoon is.
 
 ## 📝 Feedback moment met Tamara (Week 2)
 
@@ -119,84 +112,80 @@ Uiteindelijk had ik duidelijke doelen voor de komende test namelijk:
 
 ## 🔎 (Testronde 2, Week 3) 
 
-Bij deze test had ik zo goed als alle feedback verwerkt van vorige week. Ook had ik een andere oplossing van het visualiseren van de 
+Bij deze test had ik zo goed als alle feedback verwerkt van vorige week. Ook had ik een andere oplossing van het visualiseren van de achtergrond. Ik had namelijk een achtergrond afbeelding achter en wegtrekkende gradient geplaatst waardoor het leek alsof de scheuren van de afbeelding steeds groter werden. Ik vond deze versie al heel veel beter dan de vorige omdat ik dit beeld van wat er gebeurde op de achtergrond echt meer de audio vond uitbeelden en vond het wel een spannende visualisatie.
+
+Wat ik wilde testen was of mijn ideeen die ik nog heb, de goede weg op gaan, of zij nog feedback punten heeft die ze vorige week niet heeft gezegd, wat ze van mijn nieuwe opbouw en visualisatie van het geluid vindt en of de hierarchie van de tekst beter is. 
+
+Ik had helaas niet meerdere versies kunnen maken van de opbouwende spanning omdat mijn eerste versie/idee na de feedback al heel veel tijd kostte. 
 
 ### Bevindingen
 
-Wat ik wilde testen was of mijn ideeen die ik nog heb, de goede weg op gaan, of zij nog feedback punten heeft die ze vorige week niet heeft gezegd, wat ze van mijn nieuwe opbouw en visualisatie van het geluid vindten of de hyrarchie van de tekst beter is. 
-
-Ik had helaas niet meerdere versies gemaakt van de opbouwende spanning omdat mijn eerste versie/idee na de feedback al heel veel tijd kostte. Maar ze was erg enthausiast over de achtergrond afbeelding bij het grimmige muziekje dat afspeelde als de kastanjemannen in beeld komen in de kelder. 
+Ze was erg enthausiast over de achtergrond afbeelding bij het grimmige muziekje dat afspeelde als de kastanjemannen in beeld komen in de kelder. 
 
 Wel had ze nog wat feedback voor mij en dat was:
-- Er moet een cc als omschrijving van de muziek. 
-> Ze had nog een beetje twijfels van wat voor muziek of geluid het percies moest voorstellen. Een cc erbij om het geluid te omschrijven zou helpen daarbij. 
+- Ze had nog een beetje twijfels van wat voor muziek of geluid het precies moest voorstellen. Een closed caption erbij om het geluid te omschrijven zou helpen daarbij. 
 - Ze had ook vragen bij wat er precies valt in de kelder als Marius aan de telefoon is, en hoe dat klinkt.
 - Ik noemde wat ideeen op zoals het animeren van de closed caption: [Heavy breathing] op het ritme van hoe hij hijgt. Dit zou zeker kunnen werken bij het zien van intonatie. 
 - De iconen bij de tekst hoeven niet altijd bij de tekst, dit leidt af en het is loze info want ze weet deze info al. 
 
-Op mn vraag van wat visueel eng is voor haar had ze geen antwoord op. Ze zat er diep over na te denken maar kon echt niks bedenken. Uiteindelijk dacht ik dat het niet zo zeer om het enge van de film gaat, maar meer de sweer. Dat het overbrengen van de sweer het belangrijkste is, en dat merkte ik ook wel tijdens deze proef. Want ze zei vaak het woord sfeer, en dat ze de sfeer goed meekreeg of mee wilde krijgen.
+Op mn vraag van wat visueel eng is voor haar had ze geen antwoord op. Ze zat er diep over na te denken maar kon echt niks bedenken. Uiteindelijk dacht ik dat het niet zo zeer om het enge van de film gaat, maar meer de sfeer. Dat het overbrengen van de sweer het belangrijkste is, en dat merkte ik ook wel tijdens deze proef. Want ze zei vaak het woord sfeer, en dat ze de sfeer goed meekreeg of mee wilde krijgen.
 
 Ook had ze nog een tip voor ons allemaal, kijk is de scene met zwart beeld, en luister alleen naar ht geluid, omschrijf wat je hoort en schrijf dit op. Dit zou het omschrijven van geluiden makkelijker voor ons maken en het beter te begrijpen maken voor Marie.
 
-### Notes van anderen hun tests
+> **Aantekeningen van andere tests:**
+>
+> - Alleen kleuren als geluid doen haar niets
+> - "Pulp function as typography" is een goed voorbeeld van intonatie, dat de tekst hevig wordt geanimeerd is leuk en werkt goed.
+> - Ondertiteling moet niet achter lopen
+> - Woord voor woord animeren wordt iets te druk
+> - Ook zei ze dat ze ook wel kan zien waar het geluid vandaan komt. 
+> - Kleine details zoals closed captions voor alle geluiden die je hoort maken het nog spannender.
+> - Extra letters in woorden werken goed en vullen de intonatie goed in.
+> - Als het geluid maakt, moet het zichtbaar zijn.
 
-- Kleuren als geluid doet haar niets
-- pulp function as typography is een goed voorbeeld van intonatie, dat de tekst hevig wordt geanimeerd is leuk en werkt goed.
-- ondertiteling moet niet achter lopen
-- woord voor woord, en de positie en animitie op de woorden individueel wordt iets te veel
-- Ook zei ze dat ze ook wel kan zien waar het geluid vandaan komt. 
-- wat ze ziet kan eruit blijven, 
-- kleine details maken het nog spannender
-- extra letters in woorden werken goed en vult goed de intonatie in.
-- Tekst helemaal uitleggen of alleen wat je hoort op de plek?, kan mss anders zijn bij omgevings geluiden en muziek.
-- Als het geluid maakt, moet het zichtbaar zijn.
+Met de bevindingen van test 2 ben ik deze week verder gegaan. Ik heb gedaan wat Marie had voorgesteld en dat was de scene te gaan beluisteren zonder beeld, dit allemaal op te schrijven en te omschrijven, en dit als closed captions neer te zetten. Hierdoor ziet ze welke geluiden je zou moeten horen waardoor zij zelf een beeld kan schetsen van de sfeer. 
+
+Uiteindelijk heb ik deze features toegevoegd:
+
+- [x] Alle geluiden in closed captions
+- [x] Muziek omschrijven on closed captions
+- [x] Iconen weghalen als het niet hoeft
+- [x] het hevig ademen animeren
+- [x] En het laatste stuk af gemaakt
+- [x] Verluister font toegevoegd
+
+Ik had nog een idee om het laatste stuk te laten bounchen samen met de achtergrond afbeelding. Dit wilde ik doen omdat de wind dat bounche geluid maakt maar dit heb ik helaas niet kunnen maken.
 
 ## 📝 Feedback moment (Week 3)
 
-## Week 4
+## 🔎 (Testronde 3, Week 4)
 
-Met de bevindingen van test 2 ben ik deze week verder gegaan, ik heb gedaan wat Marie had voorgesteld en dat was de scene te gaan beluisteren zonder beeld, dit allemaal op te schrijven en te omschrijven, en dit als closed captions neer te zetten. Hierdoor ziet ze welke geluiden je zou moeten horen waardoor zij zelf een beeld kan schetsen van de sfeer. 
+Voor de test 3 had ik een aantal vragen opgesteld en dingen opgeschreven die ik wilde testen Namelijk.
 
-- [x] alle geluiden in closed captions
-- [x] muziek omschrijven on closed captions
-- [x] iconen weghalen als het niet hoeft
-- [x] het hevig ademen animeren
-- En het laatste stuk af gemaakt
-- verluister font toegevoegd
+- Is het te veel tekst van de omschrijving, moet het uitgebreider, of moet het meer in steekwoorden?
+-  Wanneer is het te veel tekst, wanneer te weinig?
+- Is het duidelijk dat de achtergrond muziek, achtergrond muziek is en geen songtekst.
+- De vorige keer had ik gevraagd wat jij visueel eng vind en daar had je geen antwoord op. Hieruit nam ik de conclusie dat wij een enge scene niet perse eng voor jou hoeven te maken maar ons best moeten doen om de sfeer zo goed mogelijk over te brengen. Heb ik hier de juiste conclusie uit getrokken?
+- Heb je verder nog tips?
 
-Ik heb het laatste stuk helaas niet kunnen laten bounchen want de op achtergrond muziek gaat de winderige piep heel erg op en neer.
+### Bevindingen
 
-### 🔎 (Testronde 3, Week 4)
+De omschrijving van de muziek en geluiden waren inderdaad iets aan de lange kant. Ik zou dit kunnen opknippen in stukken om dit leesbaarder te maken. 
+Ze wist niet zeker of de tekst tussen deze ♫ iconen een songtekst was of de achtergond moest omschrijven. 
 
-**Vragen voor de test:**
+Op de vraag of mijn conclusie klopte die ik had getrokken van haar antwoord over wat visueel eng was die vorige week, zei ze dat dat klopte. Maar ze zei wel dat de spanning aan de context ligt. En dat ze wel een keer een enge film heeft bekeken toen ze 6 of 7 jaar oud was waar ze nachten van wakker heeft gelegen. Dit kwam omdat wat er op het beeld afspeelde eng was en je niet zag wat mensen in de film nou zo eng vonden. De ontwetendheid was de factor die het zo spannend maakte. 
+Verder had ze geen tips, en was weer erg enthausiast en zelfs een beetje verbaasd van hoeveel geluiden wij horen in zo'n scene.
 
-Is het te veel tekst van de omschrijving, moet het uitgebreider, of moet het meer in steekwoorden?
- => opknippen in stukjes zodat het leesbaarder wordt
-
-Wanneer is het te veel tekst, wanneer te weinig? => opknippen in stukjes zodat het leesbaarder wordt
-
-Is het duidelijk dat de achtergrond muziek, achtergrond muziek is en geen songtekst.
-=> denkt dat het een songtekst is.
-
-De vorige keer had ik gevraagd wat jij visueel eng vind en daar had je geen antwoord op. Hieruit nam ik de conclusie dat wij een enge scene niet perse eng voor jou hoeven te maken maar ons best moeten doen om de sfeer zo goed mogelijk over te brengen. Heb ik hier de juiste conclusie uit getrokken? 
-=> klopt, spanning ligt aan de context natuurlijk en ze heeft wel een keer wakker gelegen van een enge film
-
-Heb je verder nog tips?
-=> nee, goed bezig
-
-Ze was verbaasd en enthausiast over hoe veel geluiden je hoort en dat er ook veel geluiden door elkaar lopen.
-
-**aantekeningen van andere tests:**
-
-Ze wil het ritme graag meekrijgen
-
-het trillen van de telefoon past niet echt bij het kloppen in de film
-geluid is trilling maar trillingen zijn ook altijd weer anders. 
-Wel passen de trillingen bij de laatste scene van de chestnut men
-
-mooie klap animatie van niels, 
-sound bar moet iets precieser, en accurater en dan zou het wel kunnen werken, en een goeie toevoeging zijn. 
-
+> **Aantekeningen van andere tests:**
+>
+> Ze wil het ritme graag meekrijgen. 
+> 
+> het trillen van de telefoon past niet echt bij het kloppen in de film
+> geluid is trilling maar trillingen zijn ook altijd weer anders. 
+> Wel passen de trillingen bij de laatste scene van de chestnut men
+>
+> mooie klap animatie van niels, 
+> sound bar moet iets precieser, en accurater en dan zou het wel kunnen werken, en een goeie toevoeging zijn. 
 
 ## Exclusive design principles:
 
