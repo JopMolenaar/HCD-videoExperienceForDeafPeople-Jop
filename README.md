@@ -2,7 +2,7 @@
 
 ## Intro
 
-Dit vak gaat over het maken van een protoype voor een specifiek persoon. In plaats van inclusive design te maken, geen we in dit vak aan de slag met exclusive design en gaan wij testen met een aangegeven persoon met een beperking. Door een interview en 3 tests probeer ik en zo goed mogenlijk prototype te maken voor de testpersoon. De opdracht voor mij was om iets te maken voor Marie van Driessche. Marie is doof en is docent bij CMD en werkt als ontwerper bij Unc Inc. Marie wil graag dat ze geluid in films net zo kan ervaren als mensen die wel geluid horen en ook graag podcasts wil luisteren en die net zo aantrekkelijk en net zo veel details horen als mensen die wel kunnen horen. 
+Dit vak gaat over het maken van een prototype voor een specifiek persoon. In plaats van een inclusive design te maken, geen we in dit vak aan de slag met exclusive designen en gaan wij testen met een aangegeven persoon met een beperking. Door een interview en 3 tests probeer ik een zo goed mogenlijk prototype te maken voor de testpersoon. De opdracht voor mij was om iets te maken voor Marie van Driessche. Marie is doof en is docent bij CMD en werkt als ontwerper bij Unc Inc. Marie wil graag dat ze geluid in films net zo kan ervaren als mensen die wel geluid horen en ook graag podcasts wil luisteren en die net zo aantrekkelijk en net zo veel details horen als mensen die wel kunnen horen. 
 
 ## 💬 Interview 1 vragen met bevindingen (Week 1)
 
